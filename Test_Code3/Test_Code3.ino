@@ -14,8 +14,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   pinput = analogRead(sensorPin);
+  pinput = map(pinput, 0, 1023, 0, 45);
   serv.write(pinput);
   //serv1.write(pinput);
 }
-
-

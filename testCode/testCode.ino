@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  //serv.write(0);
+  serv.write(48);
   //sweep(0, 48, 20);
   //serialInput(0, 48);
 }
