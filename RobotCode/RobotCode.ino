@@ -15,14 +15,14 @@ Servo hand;
 int elbowPin = 0;
 int rotatePin = 0;
 int shoulderPin = 0;
-int wristPin = 0;
+int BasePin = 0;
 int handPin = 0;
 
 //Values for reading in input from potentiometers
 int elbowIn = 0;
 int rotateIn = 0;
 int shoulderIn = 0;
-int wristIn = 0;
+int BaseIn = 0;
 int handIn = 0;
 
 void setup() {
@@ -30,7 +30,7 @@ void setup() {
   rotate.attach(3);
   shoulder.attach(5);
   elbow.attach(6);
-  wrist.attach(9);
+  Base.attach(9);
   hand.attach(10);
 }
 
@@ -52,10 +52,10 @@ void loop() {
   shoulderIn = map(shoulderIn, 0, 1023, 0, 359);
   shoulder.write(shoulderIn);
 
-  // Map input from pot. to wrist servo
-  wristIn = analogRead(wristPin);
-  wristIn = map(wristIn, 0, 1023, 0, 359);
-  wrist.write(wristIn);
+  // Map input from pot. to Base servo
+  BaseIn = analogRead(wristPin);
+  BaseIn = map(wristIn, 0, 1023, 0, 359);
+  Base.write(wristIn);
 
   // Map input from pot. to hand servo
   handIn = analogRead(handPin);
