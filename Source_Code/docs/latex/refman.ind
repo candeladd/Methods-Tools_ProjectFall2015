@@ -19,7 +19,7 @@
     \subitem {Servo\discretionary {-}{}{}Sweep.\discretionary {-}{}{}ino}, 
 		\hyperpage{7}
     \subitem {Testing\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Orig\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Servos.\discretionary {-}{}{}ino}, 
-		\hyperpage{8}
+		\hyperpage{9}
     \subitem {Working\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Potentiometer\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Code.\discretionary {-}{}{}ino}, 
 		\hyperpage{10}
 
@@ -69,7 +69,7 @@
   \indexspace
 
   \item {Testing\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Orig\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Servos.\discretionary {-}{}{}ino}
-    \subitem {loop}, \hyperpage{8}
+    \subitem {loop}, \hyperpage{9}
     \subitem {setup}, \hyperpage{9}
 
   \indexspace

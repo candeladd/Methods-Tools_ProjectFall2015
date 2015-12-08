@@ -33,7 +33,7 @@
     <member refid="_servo_sweep_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kind="variable"><name>serv</name></member>
     <member refid="_servo_sweep_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
     <member refid="_servo_sweep_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
-    <member refid="_servo_sweep_8ino_1a743e12b5e680cfb12894b00d603d8615" kind="function"><name>serialInput</name></member>
+    <member refid="_servo_sweep_8ino_1aececb11ecdc97d45c51aaf92c8016006" kind="function"><name>serialInput</name></member>
     <member refid="_servo_sweep_8ino_1a28ce3d1389c3b021d9ad0a86770dbeb7" kind="function"><name>sweep</name></member>
   </compound>
   <compound refid="_testing___orig___servos_8ino" kind="file"><name>Testing_Orig_Servos.ino</name>

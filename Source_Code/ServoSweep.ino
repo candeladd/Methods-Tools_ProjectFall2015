@@ -54,13 +54,13 @@ void loop() {
  *  @return void
  */
 
-void serialInput(int op, int cl) {
+void serialInput(int open, int close) {
   if (Serial.available()) {
     char c = Serial.read();
     if (c == 'o') {
-      serv.write(op);
+      serv.write(open);
     } else if (c == 'c') {
-      serv.write(cl);
+      serv.write(close);
     }
   }
 }
@@ -72,6 +72,7 @@ void serialInput(int op, int cl) {
  *  @param start position servo starts at.
  *  @param end position servo will move to.
  *  @param t time t in milliseconds servo will delay while sweeping. Determines speed of rotation.
+ *  @return void
  */
 
 void sweep(int start, int end, int t) {

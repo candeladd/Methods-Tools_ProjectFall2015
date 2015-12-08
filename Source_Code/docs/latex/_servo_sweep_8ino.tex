@@ -14,7 +14,7 @@ void \hyperlink{_servo_sweep_8ino_a4fc01d736fe50cf5b977f755b675f11d}{setup} ()
 \begin{DoxyCompactList}\small\item\em Setup code runs once at start up. \end{DoxyCompactList}\item 
 void \hyperlink{_servo_sweep_8ino_afe461d27b9c48d5921c00d521181f12f}{loop} ()
 \begin{DoxyCompactList}\small\item\em Loop code runs repeadtidly to power disconnect. \end{DoxyCompactList}\item 
-void \hyperlink{_servo_sweep_8ino_a743e12b5e680cfb12894b00d603d8615}{serial\-Input} (int op, int cl)
+void \hyperlink{_servo_sweep_8ino_aececb11ecdc97d45c51aaf92c8016006}{serial\-Input} (int open, int close)
 \begin{DoxyCompactList}\small\item\em Gets input from Serial monitor and applies to servo. \end{DoxyCompactList}\item 
 void \hyperlink{_servo_sweep_8ino_a28ce3d1389c3b021d9ad0a86770dbeb7}{sweep} (int start, int end, int t)
 \begin{DoxyCompactList}\small\item\em Sweeps the servo to. \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -51,14 +51,14 @@ Exectutes main code. Either sweeps servo open and closed or takes open and close
 \begin{DoxyReturn}{Returns}
 void 
 \end{DoxyReturn}
-\hypertarget{_servo_sweep_8ino_a743e12b5e680cfb12894b00d603d8615}{\index{Servo\-Sweep.\-ino@{Servo\-Sweep.\-ino}!serial\-Input@{serial\-Input}}
+\hypertarget{_servo_sweep_8ino_aececb11ecdc97d45c51aaf92c8016006}{\index{Servo\-Sweep.\-ino@{Servo\-Sweep.\-ino}!serial\-Input@{serial\-Input}}
 \index{serial\-Input@{serial\-Input}!ServoSweep.ino@{Servo\-Sweep.\-ino}}
 \subsubsection[{serial\-Input}]{\setlength{\rightskip}{0pt plus 5cm}void serial\-Input (
 \begin{DoxyParamCaption}
-\item[{int}]{op, }
-\item[{int}]{cl}
+\item[{int}]{open, }
+\item[{int}]{close}
 \end{DoxyParamCaption}
-)}}\label{_servo_sweep_8ino_a743e12b5e680cfb12894b00d603d8615}
+)}}\label{_servo_sweep_8ino_aececb11ecdc97d45c51aaf92c8016006}
 
 
 Gets input from Serial monitor and applies to servo. 
@@ -120,3 +120,6 @@ Simple function to rotate the servo to a position and back.
 {\em t} & time t in milliseconds servo will delay while sweeping. Determines speed of rotation. \\
 \hline
 \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['sensorpin',['sensorPin',['../_working___potentiometer___code_8ino.html#a632532ec80ad52b56985be11fe130d01',1,'Working_Potentiometer_Code.ino']]],
-  ['serialinput',['serialInput',['../_servo_sweep_8ino.html#a743e12b5e680cfb12894b00d603d8615',1,'ServoSweep.ino']]],
+  ['serialinput',['serialInput',['../_servo_sweep_8ino.html#aececb11ecdc97d45c51aaf92c8016006',1,'ServoSweep.ino']]],
   ['serv',['serv',['../_servo_sweep_8ino.html#a9488c8d7a3c4603f10af1b9985a0fedf',1,'serv():&#160;ServoSweep.ino'],['../_working___potentiometer___code_8ino.html#a9488c8d7a3c4603f10af1b9985a0fedf',1,'serv():&#160;Working_Potentiometer_Code.ino']]],
   ['serv1',['serv1',['../_working___potentiometer___code_8ino.html#a9a8595d64e62e1500b064abd7e588749',1,'Working_Potentiometer_Code.ino']]],
   ['servomaxbase',['SERVOMAXBASE',['../_final___demo___code_8ino.html#a9524d9255f4670136e1f56a03ed2337a',1,'Final_Demo_Code.ino']]],
