@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_my_test" kind="class" prot="public">
+    <compoundname>MyTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Test</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Test</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_my_test_1a8f140c59b5cc824840a19652a94c4029" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t MyTest::when</definition>
+        <argsstring></argsstring>
+        <name>when</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced/advanced.ino" line="54" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced/advanced.ino" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_my_test_1a322910625a959ea65df893515bb607a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MyTest::MyTest</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>MyTest</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced/advanced.ino" line="55" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced/advanced.ino" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_test_1af08fb4f744ca2f38dafdcdbb0624147c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyTest::loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced/advanced.ino" line="61" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced/advanced.ino" bodystart="61" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_test_1a7608ca78a182a5be941c2f64069f33fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MyTest::MyTest</definition>
+        <argsstring>(const __FlashStringHelper *name)</argsstring>
+        <name>MyTest</name>
+        <param>
+          <type>const __FlashStringHelper *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="6" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" bodystart="6" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_test_1a0c7282587d0b6e02db3af3d40faa9934" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyTest::setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="12" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_test_1af08fb4f744ca2f38dafdcdbb0624147c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyTest::loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="18" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" bodystart="18" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Test</label>
+      </node>
+      <node id="0">
+        <label>MyTest</label>
+        <link refid="class_my_test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Test</label>
+      </node>
+      <node id="2">
+        <label>MyTest</label>
+        <link refid="class_my_test"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced/advanced.ino" line="52" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced/advanced.ino" bodystart="51" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_my_test_1af08fb4f744ca2f38dafdcdbb0624147c" prot="public" virt="non-virtual"><scope>MyTest</scope><name>loop</name></member>
+      <member refid="class_my_test_1af08fb4f744ca2f38dafdcdbb0624147c" prot="public" virt="non-virtual"><scope>MyTest</scope><name>loop</name></member>
+      <member refid="class_my_test_1a322910625a959ea65df893515bb607a0" prot="public" virt="non-virtual"><scope>MyTest</scope><name>MyTest</name></member>
+      <member refid="class_my_test_1a7608ca78a182a5be941c2f64069f33fb" prot="public" virt="non-virtual"><scope>MyTest</scope><name>MyTest</name></member>
+      <member refid="class_my_test_1a0c7282587d0b6e02db3af3d40faa9934" prot="public" virt="non-virtual"><scope>MyTest</scope><name>setup</name></member>
+      <member refid="class_my_test_1a8f140c59b5cc824840a19652a94c4029" prot="public" virt="non-virtual"><scope>MyTest</scope><name>when</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f26f15738a16b794a504e054d8a67f1b" kind="dir">
+    <compoundname>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples</compoundname>
+    <innerdir refid="dir_328642e6ac90abc2021bb19a2bbb0121">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/advanced</innerdir>
+    <innerdir refid="dir_33527693e06d146747867c10f49434e0">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/basic</innerdir>
+    <innerdir refid="dir_669d9f57641ad10649c0c6a67bf6d38e">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/continuous</innerdir>
+    <innerdir refid="dir_35a7240d02a910eb44b657247fe32987">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/digital_pin_test</innerdir>
+    <innerdir refid="dir_0d2868b02b17fed6e0a8ab50c43f8c89">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter</innerdir>
+    <innerdir refid="dir_71aaf49bcb28f3a312b1d3b4da9d6ce0">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/verbosity</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/"/>
+  </compounddef>
+</doxygen>

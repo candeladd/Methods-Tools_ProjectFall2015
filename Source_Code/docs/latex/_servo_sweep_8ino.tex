@@ -1,0 +1,125 @@
+\hypertarget{_servo_sweep_8ino}{\section{Source\-\_\-\-Code/\-Servo\-Sweep.ino File Reference}
+\label{_servo_sweep_8ino}\index{Source\-\_\-\-Code/\-Servo\-Sweep.\-ino@{Source\-\_\-\-Code/\-Servo\-Sweep.\-ino}}
+}
+
+
+This is code for testing servo functionality.  
+
+
+{\ttfamily \#include $<$Servo.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_servo_sweep_8ino_a4fc01d736fe50cf5b977f755b675f11d}{setup} ()
+\begin{DoxyCompactList}\small\item\em Setup code runs once at start up. \end{DoxyCompactList}\item 
+void \hyperlink{_servo_sweep_8ino_afe461d27b9c48d5921c00d521181f12f}{loop} ()
+\begin{DoxyCompactList}\small\item\em Loop code runs repeadtidly to power disconnect. \end{DoxyCompactList}\item 
+void \hyperlink{_servo_sweep_8ino_aececb11ecdc97d45c51aaf92c8016006}{serial\-Input} (int open, int close)
+\begin{DoxyCompactList}\small\item\em Gets input from Serial monitor and applies to servo. \end{DoxyCompactList}\item 
+void \hyperlink{_servo_sweep_8ino_a28ce3d1389c3b021d9ad0a86770dbeb7}{sweep} (int start, int end, int t)
+\begin{DoxyCompactList}\small\item\em Sweeps the servo to. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{_servo_sweep_8ino_a9488c8d7a3c4603f10af1b9985a0fedf}{Servo \hyperlink{_servo_sweep_8ino_a9488c8d7a3c4603f10af1b9985a0fedf}{serv}}\label{_servo_sweep_8ino_a9488c8d7a3c4603f10af1b9985a0fedf}
+
+\begin{DoxyCompactList}\small\item\em Servo for testing. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is code for testing servo functionality. A simple program for testing servo functionality. It attaches one servo and rotates it to a certain angle and back repeatedly. Optional functionality to pass command through the serial monitor. 
+
+\subsection{Function Documentation}
+\hypertarget{_servo_sweep_8ino_afe461d27b9c48d5921c00d521181f12f}{\index{Servo\-Sweep.\-ino@{Servo\-Sweep.\-ino}!loop@{loop}}
+\index{loop@{loop}!ServoSweep.ino@{Servo\-Sweep.\-ino}}
+\subsubsection[{loop}]{\setlength{\rightskip}{0pt plus 5cm}void loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_servo_sweep_8ino_afe461d27b9c48d5921c00d521181f12f}
+
+
+Loop code runs repeadtidly to power disconnect. 
+
+Exectutes main code. Either sweeps servo open and closed or takes open and close command from the serial monitor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{_servo_sweep_8ino_aececb11ecdc97d45c51aaf92c8016006}{\index{Servo\-Sweep.\-ino@{Servo\-Sweep.\-ino}!serial\-Input@{serial\-Input}}
+\index{serial\-Input@{serial\-Input}!ServoSweep.ino@{Servo\-Sweep.\-ino}}
+\subsubsection[{serial\-Input}]{\setlength{\rightskip}{0pt plus 5cm}void serial\-Input (
+\begin{DoxyParamCaption}
+\item[{int}]{open, }
+\item[{int}]{close}
+\end{DoxyParamCaption}
+)}}\label{_servo_sweep_8ino_aececb11ecdc97d45c51aaf92c8016006}
+
+
+Gets input from Serial monitor and applies to servo. 
+
+Gets a command from the serial monitor. If command is 'o' the servo turns to the open state. If the command is 'c' the servo turns to the closed state. Otherwise, it does nothing.
+
+
+\begin{DoxyParams}{Parameters}
+{\em open} & degrees of rotation for servo to open. \\
+\hline
+{\em close} & degrees of rotation for servo to close. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{_servo_sweep_8ino_a4fc01d736fe50cf5b977f755b675f11d}{\index{Servo\-Sweep.\-ino@{Servo\-Sweep.\-ino}!setup@{setup}}
+\index{setup@{setup}!ServoSweep.ino@{Servo\-Sweep.\-ino}}
+\subsubsection[{setup}]{\setlength{\rightskip}{0pt plus 5cm}void setup (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_servo_sweep_8ino_a4fc01d736fe50cf5b977f755b675f11d}
+
+
+Setup code runs once at start up. 
+
+Attatches test servo to a analog output pin and starts the serial monitor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{_servo_sweep_8ino_a28ce3d1389c3b021d9ad0a86770dbeb7}{\index{Servo\-Sweep.\-ino@{Servo\-Sweep.\-ino}!sweep@{sweep}}
+\index{sweep@{sweep}!ServoSweep.ino@{Servo\-Sweep.\-ino}}
+\subsubsection[{sweep}]{\setlength{\rightskip}{0pt plus 5cm}void sweep (
+\begin{DoxyParamCaption}
+\item[{int}]{start, }
+\item[{int}]{end, }
+\item[{int}]{t}
+\end{DoxyParamCaption}
+)}}\label{_servo_sweep_8ino_a28ce3d1389c3b021d9ad0a86770dbeb7}
+
+
+Sweeps the servo to. 
+
+Simple function to rotate the servo to a position and back.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & position servo starts at. \\
+\hline
+{\em end} & position servo will move to. \\
+\hline
+{\em t} & time t in milliseconds servo will delay while sweeping. Determines speed of rotation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

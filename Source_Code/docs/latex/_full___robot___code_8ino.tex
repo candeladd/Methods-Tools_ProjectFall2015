@@ -1,0 +1,112 @@
+\hypertarget{_full___robot___code_8ino}{\section{Source\-\_\-\-Code/\-Full\-\_\-\-Robot\-\_\-\-Code.ino File Reference}
+\label{_full___robot___code_8ino}\index{Source\-\_\-\-Code/\-Full\-\_\-\-Robot\-\_\-\-Code.\-ino@{Source\-\_\-\-Code/\-Full\-\_\-\-Robot\-\_\-\-Code.\-ino}}
+}
+
+
+This is the final robot code.  
+
+
+{\ttfamily \#include $<$Servo.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_full___robot___code_8ino_a4fc01d736fe50cf5b977f755b675f11d}{setup} ()
+\begin{DoxyCompactList}\small\item\em The code that runs once at the start. \end{DoxyCompactList}\item 
+void \hyperlink{_full___robot___code_8ino_afe461d27b9c48d5921c00d521181f12f}{loop} ()
+\begin{DoxyCompactList}\small\item\em The code that loops repeatedly till power disconnect. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{_full___robot___code_8ino_a83613551832022f93753f3fc3982a3f5}{Servo \hyperlink{_full___robot___code_8ino_a83613551832022f93753f3fc3982a3f5}{rotate}}\label{_full___robot___code_8ino_a83613551832022f93753f3fc3982a3f5}
+
+\begin{DoxyCompactList}\small\item\em Servo to rotate at base of arm. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_a671162e07e6ce722a453aa3872470b5f}{Servo \hyperlink{_full___robot___code_8ino_a671162e07e6ce722a453aa3872470b5f}{shoulder}}\label{_full___robot___code_8ino_a671162e07e6ce722a453aa3872470b5f}
+
+\begin{DoxyCompactList}\small\item\em Servo for elevating lower arm. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_ab611e7983b833b6e26c24e00f12c278e}{Servo \hyperlink{_full___robot___code_8ino_ab611e7983b833b6e26c24e00f12c278e}{elbow}}\label{_full___robot___code_8ino_ab611e7983b833b6e26c24e00f12c278e}
+
+\begin{DoxyCompactList}\small\item\em Servo for moving upper arm. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_a705492da183c4ccae458597c737efda5}{Servo \hyperlink{_full___robot___code_8ino_a705492da183c4ccae458597c737efda5}{wrist}}\label{_full___robot___code_8ino_a705492da183c4ccae458597c737efda5}
+
+\begin{DoxyCompactList}\small\item\em Servo for moving claw. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_a492f39e709ace6ac96017be42d9238ba}{Servo \hyperlink{_full___robot___code_8ino_a492f39e709ace6ac96017be42d9238ba}{hand}}\label{_full___robot___code_8ino_a492f39e709ace6ac96017be42d9238ba}
+
+\begin{DoxyCompactList}\small\item\em Servo for moving opening and closing claw fingers. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_a6ddba77e62e5aee2488967a4562deb35}{int \hyperlink{_full___robot___code_8ino_a6ddba77e62e5aee2488967a4562deb35}{rotate\-Pin} = 0}\label{_full___robot___code_8ino_a6ddba77e62e5aee2488967a4562deb35}
+
+\begin{DoxyCompactList}\small\item\em Pin attached to rotate potentiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_ab44cfb621485266d578560b812f86f7d}{int \hyperlink{_full___robot___code_8ino_ab44cfb621485266d578560b812f86f7d}{shoulder\-Pin} = 1}\label{_full___robot___code_8ino_ab44cfb621485266d578560b812f86f7d}
+
+\begin{DoxyCompactList}\small\item\em Pin attached to shoulder potentiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_ab32d5ac361e31f1ab38fb6960c8956da}{int \hyperlink{_full___robot___code_8ino_ab32d5ac361e31f1ab38fb6960c8956da}{elbow\-Pin} = 2}\label{_full___robot___code_8ino_ab32d5ac361e31f1ab38fb6960c8956da}
+
+\begin{DoxyCompactList}\small\item\em Pin attached to shoulder potentiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_a16a8a086661f7645d7dd150194819a54}{int \hyperlink{_full___robot___code_8ino_a16a8a086661f7645d7dd150194819a54}{wrist\-Pin} = 3}\label{_full___robot___code_8ino_a16a8a086661f7645d7dd150194819a54}
+
+\begin{DoxyCompactList}\small\item\em Pin attached to wrist potentiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_a751e64316643e21766e99cf4329a7117}{int \hyperlink{_full___robot___code_8ino_a751e64316643e21766e99cf4329a7117}{hand\-Pin} = 4}\label{_full___robot___code_8ino_a751e64316643e21766e99cf4329a7117}
+
+\begin{DoxyCompactList}\small\item\em Pin attached to claw pontetiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_aed489013b293d84291b243d9052c776d}{int \hyperlink{_full___robot___code_8ino_aed489013b293d84291b243d9052c776d}{rotate\-In} = 0}\label{_full___robot___code_8ino_aed489013b293d84291b243d9052c776d}
+
+\begin{DoxyCompactList}\small\item\em Values for storing input from rotate potentiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_a661efe6cc4466f3d52a4edf588c74ded}{int \hyperlink{_full___robot___code_8ino_a661efe6cc4466f3d52a4edf588c74ded}{shoulder\-In} = 0}\label{_full___robot___code_8ino_a661efe6cc4466f3d52a4edf588c74ded}
+
+\begin{DoxyCompactList}\small\item\em Values for storing input from shoulder potentiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_aabe17e9e37ac66b6c44944d69bab4a60}{int \hyperlink{_full___robot___code_8ino_aabe17e9e37ac66b6c44944d69bab4a60}{elbow\-In} = 0}\label{_full___robot___code_8ino_aabe17e9e37ac66b6c44944d69bab4a60}
+
+\begin{DoxyCompactList}\small\item\em Values for storing input from elbow potentiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_ab5aecef42968c07c245fb183e33f4b38}{int \hyperlink{_full___robot___code_8ino_ab5aecef42968c07c245fb183e33f4b38}{wrist\-In} = 0}\label{_full___robot___code_8ino_ab5aecef42968c07c245fb183e33f4b38}
+
+\begin{DoxyCompactList}\small\item\em Values for storing input from wrist potentiometer. \end{DoxyCompactList}\item 
+\hypertarget{_full___robot___code_8ino_a0db2501e223e7a9c9b208fafd62af284}{int \hyperlink{_full___robot___code_8ino_a0db2501e223e7a9c9b208fafd62af284}{hand\-In} = 0}\label{_full___robot___code_8ino_a0db2501e223e7a9c9b208fafd62af284}
+
+\begin{DoxyCompactList}\small\item\em Values for storing input from hand potentiometer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is the final robot code. This code attaches each of the servos to the pins on the arduino and attaches each of the potentiometers to the input pins. It then routes the output from the potentiometers to the input of the servos to accurately control their movement 
+
+\subsection{Function Documentation}
+\hypertarget{_full___robot___code_8ino_afe461d27b9c48d5921c00d521181f12f}{\index{Full\-\_\-\-Robot\-\_\-\-Code.\-ino@{Full\-\_\-\-Robot\-\_\-\-Code.\-ino}!loop@{loop}}
+\index{loop@{loop}!Full_Robot_Code.ino@{Full\-\_\-\-Robot\-\_\-\-Code.\-ino}}
+\subsubsection[{loop}]{\setlength{\rightskip}{0pt plus 5cm}void loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_full___robot___code_8ino_afe461d27b9c48d5921c00d521181f12f}
+
+
+The code that loops repeatedly till power disconnect. 
+
+Reads in values from potentiometers, maps them to degrees, and outputs the values to the degrees of rotation for the servos.
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{_full___robot___code_8ino_a4fc01d736fe50cf5b977f755b675f11d}{\index{Full\-\_\-\-Robot\-\_\-\-Code.\-ino@{Full\-\_\-\-Robot\-\_\-\-Code.\-ino}!setup@{setup}}
+\index{setup@{setup}!Full_Robot_Code.ino@{Full\-\_\-\-Robot\-\_\-\-Code.\-ino}}
+\subsubsection[{setup}]{\setlength{\rightskip}{0pt plus 5cm}void setup (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_full___robot___code_8ino_a4fc01d736fe50cf5b977f755b675f11d}
+
+
+The code that runs once at the start. 
+
+Initializes variables for the program and attaches servos to analog output pins
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

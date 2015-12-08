@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_testing_templates_8ino" kind="file">
+    <compoundname>TestingTemplates.ino</compoundname>
+    <includes local="no">ArduinoUnit.h</includes>
+    <incdepgraph>
+      <node id="46">
+        <label>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino</label>
+        <link refid="TestingTemplates.ino"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>ArduinoUnit.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_my_test" prot="public">MyTest</innerclass>
+    <innerclass refid="class_my_test_once" prot="public">MyTestOnce</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_testing_templates_8ino_1adead09142369a0fec173bd4a3901ca95" prot="public" static="no" mutable="no">
+        <type><ref refid="class_my_test" kindref="compound">MyTest</ref></type>
+        <definition>MyTest myTest2(F(&quot;myTest2&quot;))</definition>
+        <argsstring>(F(&quot;myTest2&quot;))</argsstring>
+        <name>myTest2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_testing_templates_8ino_1ade94e4ee6954c1e762679ff827d61730" prot="public" static="no" mutable="no">
+        <type><ref refid="class_my_test_once" kindref="compound">MyTestOnce</ref></type>
+        <definition>MyTestOnce myTestOnce1(&quot;myTestOnce1&quot;)</definition>
+        <argsstring>(&quot;myTestOnce1&quot;)</argsstring>
+        <name>myTestOnce1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_testing_templates_8ino_1a59e6f1566440e9fe6084b71e527c04c3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_my_test_once" kindref="compound">MyTestOnce</ref></type>
+        <definition>MyTestOnce myTestOnce2(&quot;myTestOnce2&quot;)</definition>
+        <argsstring>(&quot;myTestOnce2&quot;)</argsstring>
+        <name>myTestOnce2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_testing_templates_8ino_1a4bdd1de383cb842ecc3f73e2d153cee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_my_test_once" kindref="compound">MyTestOnce</ref> TestOnce</type>
+        <definition>MyTestOnce TestOnce myTest1</definition>
+        <argsstring>(F(&quot;myTest1&quot;))</argsstring>
+        <name>myTest1</name>
+        <param>
+          <type>F(&quot;myTest1&quot;)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="_testing_templates_8ino_1a757631ab5f50f0c21a97531f6fc0ad79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>myTest1::MyTestOnce</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>MyTestOnce</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="52" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="_testing_templates_8ino_1a9b78e92ea980d5bf66a2a139228d33f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void myTest1::setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="55" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="_testing_templates_8ino_1ad607ba7fbccc9f1bea34ce7e474e827f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void myTest1::once</definition>
+        <argsstring>()</argsstring>
+        <name>once</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" line="58" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino" bodystart="58" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;ArduinoUnit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_my_test" kindref="compound">MyTest</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Test<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><ref refid="class_my_test" kindref="compound">MyTest</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>__FlashStringHelper<sp/>*name)<sp/>:<sp/>Test(name)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>construct<sp/>named<sp/>test.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>should<sp/>be<sp/>lightweight<sp/>-<sp/>it<sp/>may<sp/>be<sp/>excluded</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>can<sp/>set<sp/>verbosity.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setup()<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>setup<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>can<sp/>call<sp/>pass(),<sp/>fail(),<sp/>or<sp/>skip()<sp/>to<sp/>immediately<sp/>resolve<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>can<sp/>make<sp/>assertions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>can<sp/>set<sp/>verbosity.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>loop()<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>run<sp/>test<sp/>on<sp/>each<sp/>loop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>can<sp/>call<sp/>pass(),<sp/>fail(),<sp/>or<sp/>skip()<sp/>to<sp/>resolve<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>can<sp/>make<sp/>assertions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>can<sp/>set<sp/>verbosity.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_my_test_once" kindref="compound">MyTestOnce</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TestOnce</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="class_my_test_once" kindref="compound">MyTestOnce</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/>:<sp/>TestOnce(name)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>same<sp/>as<sp/>MyTest</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setup()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>same<sp/>as<sp/>MyTest</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>once()<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>same<sp/>as<sp/>MyTest::loop(),<sp/>but<sp/>will<sp/>only<sp/>be<sp/>called<sp/>once<sp/>from<sp/>loop()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>included<sp/>in<sp/>the<sp/>active<sp/>tests<sp/>and<sp/>was<sp/>not<sp/>resolved<sp/>in<sp/>setup().</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>create<sp/>instances<sp/>of<sp/>the<sp/>custom<sp/>test<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><ref refid="class_my_test" kindref="compound">MyTest</ref><sp/>myTest1(F(</highlight><highlight class="stringliteral">&quot;myTest1&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><ref refid="class_my_test" kindref="compound">MyTest</ref><sp/>myTest2(F(</highlight><highlight class="stringliteral">&quot;myTest2&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><ref refid="class_my_test_once" kindref="compound">MyTestOnce</ref><sp/>myTestOnce1(</highlight><highlight class="stringliteral">&quot;myTestOnce1&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="class_my_test_once" kindref="compound">MyTestOnce</ref><sp/>myTestOnce2(</highlight><highlight class="stringliteral">&quot;myTestOnce2&quot;</highlight><highlight class="normal">);</highlight></codeline>
+    </programlisting>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates/TestingTemplates.ino"/>
+  </compounddef>
+</doxygen>

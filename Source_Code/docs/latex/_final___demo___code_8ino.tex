@@ -1,0 +1,133 @@
+\hypertarget{_final___demo___code_8ino}{\section{Source\-\_\-\-Code/\-Final\-\_\-\-Demo\-\_\-\-Code.ino File Reference}
+\label{_final___demo___code_8ino}\index{Source\-\_\-\-Code/\-Final\-\_\-\-Demo\-\_\-\-Code.\-ino@{Source\-\_\-\-Code/\-Final\-\_\-\-Demo\-\_\-\-Code.\-ino}}
+}
+
+
+This is the final demo code.  
+
+
+{\ttfamily \#include $<$Wire.\-h$>$}\\*
+{\ttfamily \#include $<$Adafruit\-\_\-\-P\-W\-M\-Servo\-Driver.\-h$>$}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{_final___demo___code_8ino_ae3250e9bc1afb606a99abad6ff44da46}{\#define \hyperlink{_final___demo___code_8ino_ae3250e9bc1afb606a99abad6ff44da46}{S\-E\-R\-V\-O\-M\-I\-N\-B\-A\-S\-E}~150}\label{_final___demo___code_8ino_ae3250e9bc1afb606a99abad6ff44da46}
+
+\begin{DoxyCompactList}\small\item\em Minimum rotation in pulse length(pwm) for Servo motors at base. \end{DoxyCompactList}\item 
+\hypertarget{_final___demo___code_8ino_a9524d9255f4670136e1f56a03ed2337a}{\#define \hyperlink{_final___demo___code_8ino_a9524d9255f4670136e1f56a03ed2337a}{S\-E\-R\-V\-O\-M\-A\-X\-B\-A\-S\-E}~300}\label{_final___demo___code_8ino_a9524d9255f4670136e1f56a03ed2337a}
+
+\begin{DoxyCompactList}\small\item\em Maximum rotation in pulse length(pwm) for Servo motors at base. \end{DoxyCompactList}\item 
+\hypertarget{_final___demo___code_8ino_a9a8c5ba1c99c5777d9bc75eb786d67e5}{\#define \hyperlink{_final___demo___code_8ino_a9a8c5ba1c99c5777d9bc75eb786d67e5}{S\-E\-R\-V\-O\-M\-I\-N\-U\-P}~150}\label{_final___demo___code_8ino_a9a8c5ba1c99c5777d9bc75eb786d67e5}
+
+\begin{DoxyCompactList}\small\item\em Minimum rotation in pulse length for Servo motors at upperarm and claw. \end{DoxyCompactList}\item 
+\hypertarget{_final___demo___code_8ino_a1050c210d8a8e13e250166de25133129}{\#define \hyperlink{_final___demo___code_8ino_a1050c210d8a8e13e250166de25133129}{S\-E\-R\-V\-O\-M\-A\-X\-U\-P}~250}\label{_final___demo___code_8ino_a1050c210d8a8e13e250166de25133129}
+
+\begin{DoxyCompactList}\small\item\em Maximum rotation in pulse length for Servo motors at upperarm and claw. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_final___demo___code_8ino_a4fc01d736fe50cf5b977f755b675f11d}{setup} ()
+\begin{DoxyCompactList}\small\item\em This sets up the Arduino code. \end{DoxyCompactList}\item 
+void \hyperlink{_final___demo___code_8ino_a7b92333008667595c670f49489281efb}{sweep} (Adafruit\-\_\-\-P\-W\-M\-Servo\-Driver \hyperlink{_final___demo___code_8ino_a2c06cc8f85429bb0f7cb91917164dc54}{pwm}, uint8\-\_\-t channel, uint16\-\_\-t start, uint16\-\_\-t stop, uint16\-\_\-t increment)
+\begin{DoxyCompactList}\small\item\em Sweeps a servo a specified distance on a specified channel. \end{DoxyCompactList}\item 
+void \hyperlink{_final___demo___code_8ino_afe461d27b9c48d5921c00d521181f12f}{loop} ()
+\begin{DoxyCompactList}\small\item\em This code loops through every cycle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+Adafruit\-\_\-\-P\-W\-M\-Servo\-Driver \hyperlink{_final___demo___code_8ino_a2c06cc8f85429bb0f7cb91917164dc54}{pwm} = Adafruit\-\_\-\-P\-W\-M\-Servo\-Driver()
+\begin{DoxyCompactList}\small\item\em Driver for Servo Shield. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is the final demo code. We used this in the presentation.
+
+This code sweeps the base of the robot, then the upper arm, then the claw. The code loops infinitely until power is cut from the arduino or the shield. 
+
+\subsection{Function Documentation}
+\hypertarget{_final___demo___code_8ino_afe461d27b9c48d5921c00d521181f12f}{\index{Final\-\_\-\-Demo\-\_\-\-Code.\-ino@{Final\-\_\-\-Demo\-\_\-\-Code.\-ino}!loop@{loop}}
+\index{loop@{loop}!Final_Demo_Code.ino@{Final\-\_\-\-Demo\-\_\-\-Code.\-ino}}
+\subsubsection[{loop}]{\setlength{\rightskip}{0pt plus 5cm}void loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_final___demo___code_8ino_afe461d27b9c48d5921c00d521181f12f}
+
+
+This code loops through every cycle. 
+
+keeps cycling until power is disconnected.
+
+Calls the sweep function twice for each joint. There are delays in between each loop to ensure that the servo doesn't move too fast and burn out. There are different servo min and maxes based on the physical arcitecture of the arm. We ensured that each part moved within range of the table, etc.
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{_final___demo___code_8ino_a4fc01d736fe50cf5b977f755b675f11d}{\index{Final\-\_\-\-Demo\-\_\-\-Code.\-ino@{Final\-\_\-\-Demo\-\_\-\-Code.\-ino}!setup@{setup}}
+\index{setup@{setup}!Final_Demo_Code.ino@{Final\-\_\-\-Demo\-\_\-\-Code.\-ino}}
+\subsubsection[{setup}]{\setlength{\rightskip}{0pt plus 5cm}void setup (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_final___demo___code_8ino_a4fc01d736fe50cf5b977f755b675f11d}
+
+
+This sets up the Arduino code. 
+
+Runs only once at the beginning.
+
+Sets up the serial monitor for debugging and initializes the driver for the Servo Shield. 
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{_final___demo___code_8ino_a7b92333008667595c670f49489281efb}{\index{Final\-\_\-\-Demo\-\_\-\-Code.\-ino@{Final\-\_\-\-Demo\-\_\-\-Code.\-ino}!sweep@{sweep}}
+\index{sweep@{sweep}!Final_Demo_Code.ino@{Final\-\_\-\-Demo\-\_\-\-Code.\-ino}}
+\subsubsection[{sweep}]{\setlength{\rightskip}{0pt plus 5cm}void sweep (
+\begin{DoxyParamCaption}
+\item[{Adafruit\-\_\-\-P\-W\-M\-Servo\-Driver}]{pwm, }
+\item[{uint8\-\_\-t}]{channel, }
+\item[{uint16\-\_\-t}]{start, }
+\item[{uint16\-\_\-t}]{stop, }
+\item[{uint16\-\_\-t}]{increment}
+\end{DoxyParamCaption}
+)}}\label{_final___demo___code_8ino_a7b92333008667595c670f49489281efb}
+
+
+Sweeps a servo a specified distance on a specified channel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pwm} & The driver for the Servo Shield. \\
+\hline
+{\em channel} & The channel the Servo is connected to on the Shield. \\
+\hline
+{\em start} & The starting position in pulse length. \\
+\hline
+{\em stop} & The stopping position in pulse length. \\
+\hline
+{\em increment} & The amount to increase/decrease the pulse length every cycle of the loop. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\subsection{Variable Documentation}
+\hypertarget{_final___demo___code_8ino_a2c06cc8f85429bb0f7cb91917164dc54}{\index{Final\-\_\-\-Demo\-\_\-\-Code.\-ino@{Final\-\_\-\-Demo\-\_\-\-Code.\-ino}!pwm@{pwm}}
+\index{pwm@{pwm}!Final_Demo_Code.ino@{Final\-\_\-\-Demo\-\_\-\-Code.\-ino}}
+\subsubsection[{pwm}]{\setlength{\rightskip}{0pt plus 5cm}Adafruit\-\_\-\-P\-W\-M\-Servo\-Driver pwm = Adafruit\-\_\-\-P\-W\-M\-Servo\-Driver()}}\label{_final___demo___code_8ino_a2c06cc8f85429bb0f7cb91917164dc54}
+
+
+Driver for Servo Shield. 
+
+It acts as the interface between the Servo Shield and the Arduino 

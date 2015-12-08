@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_testing___orig___servos_8ino" kind="file">
+    <compoundname>Testing_Orig_Servos.ino</compoundname>
+    <includes local="no">Servo.h</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>Source_Code/Testing_Orig_Servos.ino</label>
+        <link refid="Testing_Orig_Servos.ino"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Servo.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_testing___orig___servos_8ino_1ab7eaefeafe574cbf45415789bf672403" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo myservo</definition>
+        <argsstring></argsstring>
+        <name>myservo</name>
+        <briefdescription>
+<para>Test servo 1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino" line="12" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_testing___orig___servos_8ino_1ae82ce746c91043cc28f8d2d34b313fdf" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo myservo2</definition>
+        <argsstring></argsstring>
+        <name>myservo2</name>
+        <briefdescription>
+<para>Test servo 2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino" line="14" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_testing___orig___servos_8ino_1a4fc01d736fe50cf5b977f755b675f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+<para>Sets up the servo. </para>        </briefdescription>
+        <detaileddescription>
+<para>The setup function runs once at the beginning of the program before anything else. This attaches the 2 test servos to output pins on the arduino.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino" line="25" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="_testing___orig___servos_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+<para>Runs the servos. </para>        </briefdescription>
+        <detaileddescription>
+<para>The loop function runs repeaditly till the power is disconnected. This rotates the motors on both servos at the same time from 0 up to 180 degrees and back to 0.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino" line="39" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino" bodystart="39" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is code for running two servos. </para>    </briefdescription>
+    <detaileddescription>
+<para>this is a simple program that attaches two servos to the arduino and spins them from 0 to 180 degrees and back to 0. </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="9"><highlight class="preprocessor">#include<sp/>&lt;Servo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">Servo<sp/><ref refid="_testing___orig___servos_8ino_1ab7eaefeafe574cbf45415789bf672403" kindref="member">myservo</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">Servo<sp/><ref refid="_testing___orig___servos_8ino_1ae82ce746c91043cc28f8d2d34b313fdf" kindref="member">myservo2</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_testing___orig___servos_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><ref refid="_testing___orig___servos_8ino_1ab7eaefeafe574cbf45415789bf672403" kindref="member">myservo</ref>.attach(3);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><ref refid="_testing___orig___servos_8ino_1ae82ce746c91043cc28f8d2d34b313fdf" kindref="member">myservo2</ref>.attach(5);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_testing___orig___servos_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;180;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><ref refid="_testing___orig___servos_8ino_1ab7eaefeafe574cbf45415789bf672403" kindref="member">myservo</ref>.write(i);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="_testing___orig___servos_8ino_1ae82ce746c91043cc28f8d2d34b313fdf" kindref="member">myservo2</ref>.write(i);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>delay(15);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/>}<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/>delay(100);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=180;<sp/>i&gt;180;<sp/>i--)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><ref refid="_testing___orig___servos_8ino_1ab7eaefeafe574cbf45415789bf672403" kindref="member">myservo</ref>.write(i);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><ref refid="_testing___orig___servos_8ino_1ae82ce746c91043cc28f8d2d34b313fdf" kindref="member">myservo2</ref>.write(i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>delay(15);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/>}<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/>delay(100);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Testing_Orig_Servos.ino"/>
+  </compounddef>
+</doxygen>
