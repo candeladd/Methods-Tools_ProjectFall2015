@@ -13,6 +13,7 @@ ABBREVIATE_BRIEF       = "The $name class"                          "The $name w
 ALWAYS_DETAILED_SEC    = NO
 INLINE_INHERITED_MEMB  = NO
 FULL_PATH_NAMES        = YES
+STRIP_FROM_PATH	       = ../..
 SHORT_NAMES            = NO
 JAVADOC_AUTOBRIEF      = YES
 QT_AUTOBRIEF           = NO
