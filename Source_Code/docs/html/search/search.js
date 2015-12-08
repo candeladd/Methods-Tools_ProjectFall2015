@@ -10,7 +10,8 @@ var indexSectionsWithContent =
   0: "flps",
   1: "f",
   2: "ls",
-  3: "p"
+  3: "p",
+  4: "s"
 };
 
 var indexSectionNames =
@@ -18,7 +19,8 @@ var indexSectionNames =
   0: "all",
   1: "files",
   2: "functions",
-  3: "variables"
+  3: "variables",
+  4: "defines"
 };
 
 function convertToId(search)

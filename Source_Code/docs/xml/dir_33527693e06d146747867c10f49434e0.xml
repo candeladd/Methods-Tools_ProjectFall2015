@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_33527693e06d146747867c10f49434e0" kind="dir">
+    <compoundname>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/basic</compoundname>
+    <innerfile refid="basic_8ino">basic.ino</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/basic/"/>
+  </compounddef>
+</doxygen>

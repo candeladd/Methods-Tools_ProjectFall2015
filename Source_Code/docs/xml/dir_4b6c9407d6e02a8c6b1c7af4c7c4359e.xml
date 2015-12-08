@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4b6c9407d6e02a8c6b1c7af4c7c4359e" kind="dir">
+    <compoundname>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing</compoundname>
+    <innerdir refid="dir_5808c38b12fc8849ef5012cdf99c41c2">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/ArduinoTest1</innerdir>
+    <innerdir refid="dir_2bebc8542b245748368108842987f815">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/ArduinoTest2</innerdir>
+    <innerdir refid="dir_8ad324ba4634add0bbcbbc039b15ca03">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/sketch_nov09a</innerdir>
+    <innerdir refid="dir_970275697f5310b4a4967f69c4307e14">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src</innerdir>
+    <innerdir refid="dir_85b92b6a3e8f03673f3f4dd66201d288">/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/TestingTemplates</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="filter_8ino" kind="file">
+    <compoundname>filter.ino</compoundname>
+    <includes local="no">ArduinoUnit.h</includes>
+    <incdepgraph>
+      <node id="41">
+        <label>ArduinoUnit.h</label>
+      </node>
+      <node id="40">
+        <label>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino</label>
+        <link refid="filter.ino"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="filter_8ino_1aae6a3dc0fcd76fb311370faf0e8520ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test</definition>
+        <argsstring>(net_tcp)</argsstring>
+        <name>test</name>
+        <param>
+          <type>net_tcp</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" line="5" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="filter_8ino_1af2a783e3939019c4ecce8040f12b182e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing</definition>
+        <argsstring>(net_udp)</argsstring>
+        <name>testing</name>
+        <param>
+          <type>net_udp</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" line="6" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="filter_8ino_1a31248fe46fcccbadda252a5874ac4fb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test</definition>
+        <argsstring>(net_ftp)</argsstring>
+        <name>test</name>
+        <param>
+          <type>net_ftp</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" line="7" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="filter_8ino_1ae151ddbdfafcd6a6930b63b28dc2b1dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test</definition>
+        <argsstring>(crypto_aes)</argsstring>
+        <name>test</name>
+        <param>
+          <type>crypto_aes</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" line="8" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="filter_8ino_1a925c22bc11d78f451b7e7e6234340e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing</definition>
+        <argsstring>(crypto_rng)</argsstring>
+        <name>testing</name>
+        <param>
+          <type>crypto_rng</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" line="9" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="filter_8ino_1aab44736ba760d1eedf3624fd9f525530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test</definition>
+        <argsstring>(crypto_sha256)</argsstring>
+        <name>test</name>
+        <param>
+          <type>crypto_sha256</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" line="10" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="filter_8ino_1a4fc01d736fe50cf5b977f755b675f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" line="12" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" bodystart="12" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="filter_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" line="23" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#line<sp/>2<sp/>&quot;filter.ino&quot;</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;ArduinoUnit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>empty<sp/>tests<sp/>just<sp/>to<sp/>play<sp/>with</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">test(net_tcp)<sp/>{<sp/>pass();<sp/>}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">testing(net_udp)<sp/>{<sp/>pass();<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">test(net_ftp)<sp/>{<sp/>pass();<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">test(crypto_aes)<sp/>{<sp/>pass();<sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">testing(crypto_rng)<sp/>{<sp/>pass();<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">test(crypto_sha256)<sp/>{<sp/>pass();<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>Serial.begin(9600);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!Serial);<sp/></highlight><highlight class="comment">//<sp/>for<sp/>the<sp/>Arduino<sp/>Leonardo/Micro<sp/>only</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>all<sp/>tests<sp/>named<sp/>net_<sp/>-<sp/>something,<sp/>except<sp/>net_ftp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>Test::exclude(</highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>Test::include(</highlight><highlight class="stringliteral">&quot;net_*&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>Test::exclude(</highlight><highlight class="stringliteral">&quot;net_ftp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>Test::run();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/src/examples/filter/filter.ino"/>
+  </compounddef>
+</doxygen>

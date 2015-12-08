@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_2bebc8542b245748368108842987f815" kind="dir">
+    <compoundname>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/ArduinoTest2</compoundname>
+    <innerfile refid="_arduino_test2_8ino">ArduinoTest2.ino</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Test_Cases/arduino_libraries_testing/ArduinoTest2/"/>
+  </compounddef>
+</doxygen>

@@ -12,21 +12,23 @@
 
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(); /**<Driver for Servo Shield. It acts as the interface between the Servo Shield and the Arduino */
 
-/**Minimum rotation in pulse length for Servo motors at base */
+/**Minimum rotation in pulse length(pwm) for Servo motors at base */
 #define SERVOMINBASE  150 
-/**Minimum rotation in pulse length for Servo motors at base */
+/**Maximum rotation in pulse length(pwm) for Servo motors at base */
 #define SERVOMAXBASE  300 
 
-#define SERVOMINUP  150 // this is the 'minimum' pulse length upper arm
-#define SERVOMAXUP  250 // this is the 'maximum' pulse length upper arm
+/**Minimum rotation in pulse length for Servo motors at upperarm and claw */
+#define SERVOMINUP  150
+/**Maximum rotation in pulse length for Servo motors at upperarm and claw */
+#define SERVOMAXUP  250
 
 /** This sets up the Arduino code.
  *  Runs only once at the beginning.
  *
- *  Serial.begin(9600) sets up the serial monitor for debugging purposes.
- *  The next line simply prints to the serial monitor.
- *  The last chunk sets up the servo shield. It sets up the pwm and wires
- *  in the shield.
+ *  Sets up the serial monitor for debugging and initializes
+ *  the driver for the Servo Shield.
+ *  @param void
+ *  @return void
  */
 
 void setup() {
@@ -44,60 +46,58 @@ void setup() {
   yield();
 }
 
+/** Sweeps a servo a specified distance on a specified channel.
+ *  
+ *  @param pwm The driver for the Servo Shield.
+ *  @param channel The channel the Servo is connected to on the Shield.
+ *  @param start The starting position in pulse length.
+ *  @param stop The stopping position in pulse length.
+ *  @param increment The amount to increase/decrease the pulse length every cycle of the loop.
+ *  @return void
+ */
+
+void sweep(Adafruit_PWMServoDriver pwm, uint8_t channel, uint16_t start, uint16_t stop, uint16_t increment) {
+  for (uint16_t pulselen = start; pulselen > stop; pulselen += increment) {
+    pwm.setPWM(channel, 0, pulselen);
+  }
+}
+
 /** This code loops through every cycle.
  *  keeps cycling until power is disconnected.
  *
- *  There are two sets of for loops for each joint. The first for loop
- *  sweeps the servo up, the second for loop sweeps the servo down. 
+ *  Calls the sweep function twice for each joint.
  *  There are delays in between each loop to ensure that the servo doesn't
  *  move too fast and burn out. There are different servo min and maxes
  *  based on the physical arcitecture of the arm. We ensured that each part
  *  moved within range of the table, etc.
+ *  
+ *  @param void
+ *  @return void
  */
 
 void loop() {
-  // Drive each servo one at a time
-  //Serial.println(servonum);
   for (uint16_t pulselen = SERVOMINBASE; pulselen < SERVOMAXBASE; pulselen++) {
-  //  pwm.setPWM(servonum, 0, pulselen);
     pwm.setPWM(0,0,pulselen);
     pwm.setPWM(1,0,pulselen);
-//    pwm.setPWM(3,0,pulselen);
   }
 
   delay(700);
   for (uint16_t pulselen = SERVOMAXBASE; pulselen > SERVOMINBASE; pulselen--) {
- //   pwm.setPWM(servonum,0,pulselen);
     pwm.setPWM(0,0,pulselen);
     pwm.setPWM(1,0,pulselen);
-//    pwm.setPWM(3,0,pulselen);
   }
 
   delay(1000);
-
-  for (uint16_t pulselen = SERVOMINUP; pulselen < SERVOMAXUP; pulselen++) {
-    pwm.setPWM(2, 0, pulselen);
-
-  }
+  sweep(pwm, 2, SERVOMINUP, SERVOMAXUP, 1);
 
   delay(700);
-  for (uint16_t pulselen = SERVOMAXUP; pulselen > SERVOMINUP; pulselen--) {
-    pwm.setPWM(2,0,pulselen);
-
-  }
+  sweep(pwm, 2, SERVOMAXUP, SERVOMINUP, -1);
 
   delay(1000);
-
-  for (uint16_t pulselen = SERVOMINBASE; pulselen < SERVOMAXBASE; pulselen++) {
-    pwm.setPWM(3, 0, pulselen);
-
-  }
+  sweep(pwm, 3, SERVOMINBASE, SERVOMAXBASE, 1);
 
   delay(700);
-  for (uint16_t pulselen = SERVOMAXBASE; pulselen > SERVOMINBASE; pulselen--) {
-    pwm.setPWM(3,0,pulselen);
-
-  }
+  sweep(pwm, 3, SERVOMAXBASE, SERVOMINBASE, -1);
 
   delay(2000);
 }

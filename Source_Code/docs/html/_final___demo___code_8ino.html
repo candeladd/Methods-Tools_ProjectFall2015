@@ -67,7 +67,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -95,16 +95,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ae3250e9bc1afb606a99abad6ff44da46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3250e9bc1afb606a99abad6ff44da46"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SERVOMINBASE</b>&#160;&#160;&#160;150 /**Minimum rotation in pulse length for Servo motors at base */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_final___demo___code_8ino.html#ae3250e9bc1afb606a99abad6ff44da46">SERVOMINBASE</a>&#160;&#160;&#160;150</td></tr>
+<tr class="memdesc:ae3250e9bc1afb606a99abad6ff44da46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum rotation in pulse length(pwm) for Servo motors at base. <br/></td></tr>
 <tr class="separator:ae3250e9bc1afb606a99abad6ff44da46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9524d9255f4670136e1f56a03ed2337a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9524d9255f4670136e1f56a03ed2337a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SERVOMAXBASE</b>&#160;&#160;&#160;300 /**Minimum rotation in pulse length for Servo motors at base */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_final___demo___code_8ino.html#a9524d9255f4670136e1f56a03ed2337a">SERVOMAXBASE</a>&#160;&#160;&#160;300</td></tr>
+<tr class="memdesc:a9524d9255f4670136e1f56a03ed2337a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum rotation in pulse length(pwm) for Servo motors at base. <br/></td></tr>
 <tr class="separator:a9524d9255f4670136e1f56a03ed2337a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a8c5ba1c99c5777d9bc75eb786d67e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a8c5ba1c99c5777d9bc75eb786d67e5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SERVOMINUP</b>&#160;&#160;&#160;150</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_final___demo___code_8ino.html#a9a8c5ba1c99c5777d9bc75eb786d67e5">SERVOMINUP</a>&#160;&#160;&#160;150</td></tr>
+<tr class="memdesc:a9a8c5ba1c99c5777d9bc75eb786d67e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum rotation in pulse length for Servo motors at upperarm and claw. <br/></td></tr>
 <tr class="separator:a9a8c5ba1c99c5777d9bc75eb786d67e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1050c210d8a8e13e250166de25133129"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1050c210d8a8e13e250166de25133129"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SERVOMAXUP</b>&#160;&#160;&#160;250</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_final___demo___code_8ino.html#a1050c210d8a8e13e250166de25133129">SERVOMAXUP</a>&#160;&#160;&#160;250</td></tr>
+<tr class="memdesc:a1050c210d8a8e13e250166de25133129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum rotation in pulse length for Servo motors at upperarm and claw. <br/></td></tr>
 <tr class="separator:a1050c210d8a8e13e250166de25133129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -112,6 +116,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_final___demo___code_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
 <tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This sets up the Arduino code.  <a href="#a4fc01d736fe50cf5b977f755b675f11d">More...</a><br/></td></tr>
 <tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b92333008667595c670f49489281efb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_final___demo___code_8ino.html#a7b92333008667595c670f49489281efb">sweep</a> (Adafruit_PWMServoDriver <a class="el" href="_final___demo___code_8ino.html#a2c06cc8f85429bb0f7cb91917164dc54">pwm</a>, uint8_t channel, uint16_t start, uint16_t stop, uint16_t increment)</td></tr>
+<tr class="memdesc:a7b92333008667595c670f49489281efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sweeps a servo a specified distance on a specified channel.  <a href="#a7b92333008667595c670f49489281efb">More...</a><br/></td></tr>
+<tr class="separator:a7b92333008667595c670f49489281efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_final___demo___code_8ino.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
 <tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This code loops through every cycle.  <a href="#afe461d27b9c48d5921c00d521181f12f">More...</a><br/></td></tr>
 <tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,7 +149,14 @@ Variables</h2></td></tr>
 
 <p>This code loops through every cycle. </p>
 <p>keeps cycling until power is disconnected.</p>
-<p>There are two sets of for loops for each joint. The first for loop sweeps the servo up, the second for loop sweeps the servo down. There are delays in between each loop to ensure that the servo doesn't move too fast and burn out. There are different servo min and maxes based on the physical arcitecture of the arm. We ensured that each part moved within range of the table, etc. </p>
+<p>Calls the sweep function twice for each joint. There are delays in between each loop to ensure that the servo doesn't move too fast and burn out. There are different servo min and maxes based on the physical arcitecture of the arm. We ensured that each part moved within range of the table, etc.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>
@@ -161,7 +175,71 @@ Variables</h2></td></tr>
 
 <p>This sets up the Arduino code. </p>
 <p>Runs only once at the beginning.</p>
-<p>Serial.begin(9600) sets up the serial monitor for debugging purposes. The next line simply prints to the serial monitor. The last chunk sets up the servo shield. It sets up the pwm and wires in the shield. </p>
+<p>Sets up the serial monitor for debugging and initializes the driver for the Servo Shield. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7b92333008667595c670f49489281efb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sweep </td>
+          <td>(</td>
+          <td class="paramtype">Adafruit_PWMServoDriver&#160;</td>
+          <td class="paramname"><em>pwm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>stop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>increment</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sweeps a servo a specified distance on a specified channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pwm</td><td>The driver for the Servo Shield. </td></tr>
+    <tr><td class="paramname">channel</td><td>The channel the Servo is connected to on the Shield. </td></tr>
+    <tr><td class="paramname">start</td><td>The starting position in pulse length. </td></tr>
+    <tr><td class="paramname">stop</td><td>The stopping position in pulse length. </td></tr>
+    <tr><td class="paramname">increment</td><td>The amount to increase/decrease the pulse length every cycle of the loop. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>
@@ -184,7 +262,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 7 2015 22:46:43 for Source_Code by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 7 2015 23:49:08 for Source_Code by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
