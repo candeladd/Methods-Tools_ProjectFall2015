@@ -69,7 +69,7 @@ void loop() {
   // Drive each servo one at a time
   Serial.println(servonum);
   for (uint16_t pulselen = SERVOMIN; pulselen < SERVOMAX; pulselen++) {
-    pwm.setPWM(servonum, 0, pulselen);
+    pwm.setPWM(	, 0, pulselen);
   }
 
   delay(500);
