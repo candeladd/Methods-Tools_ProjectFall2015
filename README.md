@@ -6,6 +6,7 @@ You can find the source code needed to for the ardunio under 'Source_code'.
 We have  Arduino Unit tests to test to serial ports and input pins under 'Test_Cases'. 
 We have the dxf files for the laser cutter under 'Acrylic_Arm_Build/DXF_Laser_ready_files'
 We have videos which contain testing videos under 'Videos'
+Final pdf submission is titled RobotArm_Part6.pdf - when viewing the  RobotArm_Part6.pdf the viewer should click the raw button in the right hand corner above the pdf.  This will cause the pdf to download which will make all links provided in the pdf clickable.
 
 
 
