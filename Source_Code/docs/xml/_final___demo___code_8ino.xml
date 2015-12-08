@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_final___demo___code_8ino" kind="file">
+    <compoundname>Final_Demo_Code.ino</compoundname>
+    <includes local="no">Wire.h</includes>
+    <includes local="no">Adafruit_PWMServoDriver.h</includes>
+    <incdepgraph>
+      <node id="0">
+        <label>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino</label>
+        <link refid="Final_Demo_Code.ino"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Wire.h</label>
+      </node>
+      <node id="2">
+        <label>Adafruit_PWMServoDriver.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_final___demo___code_8ino_1ae3250e9bc1afb606a99abad6ff44da46" prot="public" static="no">
+        <name>SERVOMINBASE</name>
+        <initializer>150 /**Minimum rotation in pulse length for Servo motors at base */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" line="15" column="9" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_final___demo___code_8ino_1a9524d9255f4670136e1f56a03ed2337a" prot="public" static="no">
+        <name>SERVOMAXBASE</name>
+        <initializer>300 /**Minimum rotation in pulse length for Servo motors at base */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" line="16" column="9" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_final___demo___code_8ino_1a9a8c5ba1c99c5777d9bc75eb786d67e5" prot="public" static="no">
+        <name>SERVOMINUP</name>
+        <initializer>150</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" line="18" column="9" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_final___demo___code_8ino_1a1050c210d8a8e13e250166de25133129" prot="public" static="no">
+        <name>SERVOMAXUP</name>
+        <initializer>250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" line="19" column="9" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" prot="public" static="no" mutable="no">
+        <type>Adafruit_PWMServoDriver</type>
+        <definition>Adafruit_PWMServoDriver pwm</definition>
+        <argsstring></argsstring>
+        <name>pwm</name>
+        <initializer>= Adafruit_PWMServoDriver()</initializer>
+        <briefdescription>
+<para>Driver for Servo Shield. </para>        </briefdescription>
+        <detaileddescription>
+<para>It acts as the interface between the Servo Shield and the Arduino </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" line="13" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+<para>This sets up the Arduino code. </para>        </briefdescription>
+        <detaileddescription>
+<para>Runs only once at the beginning.</para><para>Serial.begin(9600) sets up the serial monitor for debugging purposes. The next line simply prints to the serial monitor. The last chunk sets up the servo shield. It sets up the pwm and wires in the shield. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" line="30" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" bodystart="30" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+<para>This code loops through every cycle. </para>        </briefdescription>
+        <detaileddescription>
+<para>keeps cycling until power is disconnected.</para><para>There are two sets of for loops for each joint. The first for loop sweeps the servo up, the second for loop sweeps the servo down. There are delays in between each loop to ensure that the servo doesn&apos;t move too fast and burn out. There are different servo min and maxes based on the physical arcitecture of the arm. We ensured that each part moved within range of the table, etc. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" line="56" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino" bodystart="56" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is the final demo code. </para>    </briefdescription>
+    <detaileddescription>
+<para>We used this in the presentation.</para><para>This code sweeps the base of the robot, then the upper arm, then the claw. The code loops infinitely until power is cut from the arduino or the shield. </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#include<sp/>&lt;Wire.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Adafruit_PWMServoDriver.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">Adafruit_PWMServoDriver<sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref><sp/>=<sp/>Adafruit_PWMServoDriver();<sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor">#define<sp/>SERVOMINBASE<sp/><sp/>150<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor">#define<sp/>SERVOMAXBASE<sp/><sp/>300<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor">#define<sp/>SERVOMINUP<sp/><sp/>150<sp/>//<sp/>this<sp/>is<sp/>the<sp/>&apos;minimum&apos;<sp/>pulse<sp/>length<sp/>upper<sp/>arm</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SERVOMAXUP<sp/><sp/>250<sp/>//<sp/>this<sp/>is<sp/>the<sp/>&apos;maximum&apos;<sp/>pulse<sp/>length<sp/>upper<sp/>arm</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="30"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>Serial.begin(9600);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>Serial.println(</highlight><highlight class="stringliteral">&quot;16<sp/>channel<sp/>Servo<sp/>test!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ESP8266</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/>Wire.pins(2,<sp/>14);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ESP8266<sp/>can<sp/>use<sp/>any<sp/>two<sp/>pins,<sp/>such<sp/>as<sp/>SDA<sp/>to<sp/>#2<sp/>and<sp/>SCL<sp/>to<sp/>#14</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.begin();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWMFreq(60);<sp/><sp/></highlight><highlight class="comment">//<sp/>Analog<sp/>servos<sp/>run<sp/>at<sp/>~60<sp/>Hz<sp/>updates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>yield();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Drive<sp/>each<sp/>servo<sp/>one<sp/>at<sp/>a<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Serial.println(servonum);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint16_t<sp/>pulselen<sp/>=<sp/>SERVOMINBASE;<sp/>pulselen<sp/>&lt;<sp/>SERVOMAXBASE;<sp/>pulselen++)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>pwm.setPWM(servonum,<sp/>0,<sp/>pulselen);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWM(0,0,pulselen);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWM(1,0,pulselen);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>pwm.setPWM(3,0,pulselen);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>delay(700);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint16_t<sp/>pulselen<sp/>=<sp/>SERVOMAXBASE;<sp/>pulselen<sp/>&gt;<sp/>SERVOMINBASE;<sp/>pulselen--)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>pwm.setPWM(servonum,0,pulselen);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWM(0,0,pulselen);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWM(1,0,pulselen);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>pwm.setPWM(3,0,pulselen);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>delay(1000);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint16_t<sp/>pulselen<sp/>=<sp/>SERVOMINUP;<sp/>pulselen<sp/>&lt;<sp/>SERVOMAXUP;<sp/>pulselen++)<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWM(2,<sp/>0,<sp/>pulselen);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>delay(700);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint16_t<sp/>pulselen<sp/>=<sp/>SERVOMAXUP;<sp/>pulselen<sp/>&gt;<sp/>SERVOMINUP;<sp/>pulselen--)<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWM(2,0,pulselen);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>delay(1000);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint16_t<sp/>pulselen<sp/>=<sp/>SERVOMINBASE;<sp/>pulselen<sp/>&lt;<sp/>SERVOMAXBASE;<sp/>pulselen++)<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWM(3,<sp/>0,<sp/>pulselen);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>delay(700);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint16_t<sp/>pulselen<sp/>=<sp/>SERVOMAXBASE;<sp/>pulselen<sp/>&gt;<sp/>SERVOMINBASE;<sp/>pulselen--)<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kindref="member">pwm</ref>.setPWM(3,0,pulselen);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>delay(2000);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino"/>
+  </compounddef>
+</doxygen>

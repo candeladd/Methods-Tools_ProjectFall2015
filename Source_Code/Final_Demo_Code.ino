@@ -10,16 +10,15 @@
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
-Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(); /**<Driver for Servo Shield. It acts as the interface between the Servo Shield and the Arduino */
 
-#define SERVOMINBASE  150 // this is the 'minimum' pulse length base and claw
-#define SERVOMAXBASE  300 // this is the 'maximum' pulse length base and claw
+/**Minimum rotation in pulse length for Servo motors at base */
+#define SERVOMINBASE  150 
+/**Minimum rotation in pulse length for Servo motors at base */
+#define SERVOMAXBASE  300 
 
 #define SERVOMINUP  150 // this is the 'minimum' pulse length upper arm
 #define SERVOMAXUP  250 // this is the 'maximum' pulse length upper arm
-
-// our servo # counter
-uint8_t servonum = 0;
 
 /** This sets up the Arduino code.
  *  Runs only once at the beginning.
@@ -101,7 +100,4 @@ void loop() {
   }
 
   delay(2000);
-
-//  servonum ++;
-//  if (servonum > 1) servonum = 0;
 }

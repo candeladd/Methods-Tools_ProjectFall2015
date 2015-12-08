@@ -6,7 +6,6 @@
     <member refid="_final___demo___code_8ino_1a9a8c5ba1c99c5777d9bc75eb786d67e5" kind="define"><name>SERVOMINUP</name></member>
     <member refid="_final___demo___code_8ino_1a1050c210d8a8e13e250166de25133129" kind="define"><name>SERVOMAXUP</name></member>
     <member refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kind="variable"><name>pwm</name></member>
-    <member refid="_final___demo___code_8ino_1a3d7b96fd7ed48f21e600920846b435f2" kind="variable"><name>servonum</name></member>
     <member refid="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
     <member refid="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
   </compound>
