@@ -6,7 +6,7 @@
     <includes local="no">Adafruit_PWMServoDriver.h</includes>
     <incdepgraph>
       <node id="0">
-        <label>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Final_Demo_Code.ino</label>
+        <label>Source_Code/Final_Demo_Code.ino</label>
         <link refid="Final_Demo_Code.ino"/>
         <childnode refid="1" relation="include">
         </childnode>

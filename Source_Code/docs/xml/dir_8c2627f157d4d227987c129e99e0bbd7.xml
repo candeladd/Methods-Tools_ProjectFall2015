@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8c2627f157d4d227987c129e99e0bbd7" kind="dir">
+    <compoundname>Source_Code</compoundname>
+    <innerfile refid="_final___demo___code_8ino">Final_Demo_Code.ino</innerfile>
+    <innerfile refid="_full___robot___code_8ino">Full_Robot_Code.ino</innerfile>
+    <innerfile refid="_servo_sweep_8ino">ServoSweep.ino</innerfile>
+    <innerfile refid="_testing___orig___servos_8ino">Testing_Orig_Servos.ino</innerfile>
+    <innerfile refid="_working___potentiometer___code_8ino">Working_Potentiometer_Code.ino</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/"/>
+  </compounddef>
+</doxygen>

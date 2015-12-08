@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['pwm',['pwm',['../_final___demo___code_8ino.html#a2c06cc8f85429bb0f7cb91917164dc54',1,'Final_Demo_Code.ino']]]
+  ['elbow',['elbow',['../_full___robot___code_8ino.html#ab611e7983b833b6e26c24e00f12c278e',1,'Full_Robot_Code.ino']]],
+  ['elbowin',['elbowIn',['../_full___robot___code_8ino.html#aabe17e9e37ac66b6c44944d69bab4a60',1,'Full_Robot_Code.ino']]],
+  ['elbowpin',['elbowPin',['../_full___robot___code_8ino.html#ab32d5ac361e31f1ab38fb6960c8956da',1,'Full_Robot_Code.ino']]]
 ];

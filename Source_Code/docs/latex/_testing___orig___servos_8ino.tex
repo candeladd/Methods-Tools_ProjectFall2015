@@ -1,0 +1,73 @@
+\hypertarget{_testing___orig___servos_8ino}{\section{Source\-\_\-\-Code/\-Testing\-\_\-\-Orig\-\_\-\-Servos.ino File Reference}
+\label{_testing___orig___servos_8ino}\index{Source\-\_\-\-Code/\-Testing\-\_\-\-Orig\-\_\-\-Servos.\-ino@{Source\-\_\-\-Code/\-Testing\-\_\-\-Orig\-\_\-\-Servos.\-ino}}
+}
+
+
+This is code for running two servos.  
+
+
+{\ttfamily \#include $<$Servo.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_testing___orig___servos_8ino_a4fc01d736fe50cf5b977f755b675f11d}{setup} ()
+\begin{DoxyCompactList}\small\item\em Sets up the servo. \end{DoxyCompactList}\item 
+void \hyperlink{_testing___orig___servos_8ino_afe461d27b9c48d5921c00d521181f12f}{loop} ()
+\begin{DoxyCompactList}\small\item\em Runs the servos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{_testing___orig___servos_8ino_ab7eaefeafe574cbf45415789bf672403}{Servo \hyperlink{_testing___orig___servos_8ino_ab7eaefeafe574cbf45415789bf672403}{myservo}}\label{_testing___orig___servos_8ino_ab7eaefeafe574cbf45415789bf672403}
+
+\begin{DoxyCompactList}\small\item\em Test servo 1. \end{DoxyCompactList}\item 
+\hypertarget{_testing___orig___servos_8ino_ae82ce746c91043cc28f8d2d34b313fdf}{Servo \hyperlink{_testing___orig___servos_8ino_ae82ce746c91043cc28f8d2d34b313fdf}{myservo2}}\label{_testing___orig___servos_8ino_ae82ce746c91043cc28f8d2d34b313fdf}
+
+\begin{DoxyCompactList}\small\item\em Test servo 2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is code for running two servos. this is a simple program that attaches two servos to the arduino and spins them from 0 to 180 degrees and back to 0. 
+
+\subsection{Function Documentation}
+\hypertarget{_testing___orig___servos_8ino_afe461d27b9c48d5921c00d521181f12f}{\index{Testing\-\_\-\-Orig\-\_\-\-Servos.\-ino@{Testing\-\_\-\-Orig\-\_\-\-Servos.\-ino}!loop@{loop}}
+\index{loop@{loop}!Testing_Orig_Servos.ino@{Testing\-\_\-\-Orig\-\_\-\-Servos.\-ino}}
+\subsubsection[{loop}]{\setlength{\rightskip}{0pt plus 5cm}void loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_testing___orig___servos_8ino_afe461d27b9c48d5921c00d521181f12f}
+
+
+Runs the servos. 
+
+The loop function runs repeaditly till the power is disconnected. This rotates the motors on both servos at the same time from 0 up to 180 degrees and back to 0.
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{_testing___orig___servos_8ino_a4fc01d736fe50cf5b977f755b675f11d}{\index{Testing\-\_\-\-Orig\-\_\-\-Servos.\-ino@{Testing\-\_\-\-Orig\-\_\-\-Servos.\-ino}!setup@{setup}}
+\index{setup@{setup}!Testing_Orig_Servos.ino@{Testing\-\_\-\-Orig\-\_\-\-Servos.\-ino}}
+\subsubsection[{setup}]{\setlength{\rightskip}{0pt plus 5cm}void setup (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_testing___orig___servos_8ino_a4fc01d736fe50cf5b977f755b675f11d}
+
+
+Sets up the servo. 
+
+The setup function runs once at the beginning of the program before anything else. This attaches the 2 test servos to output pins on the arduino.
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

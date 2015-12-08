@@ -5,7 +5,7 @@
     <includes local="no">Servo.h</includes>
     <incdepgraph>
       <node id="13">
-        <label>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino</label>
+        <label>Source_Code/Working_Potentiometer_Code.ino</label>
         <link refid="Working_Potentiometer_Code.ino"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -21,12 +21,25 @@
         <argsstring></argsstring>
         <name>serv</name>
         <briefdescription>
-        </briefdescription>
+<para>First servo. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="3" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="3" bodyend="-1"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="13" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_working___potentiometer___code_8ino_1a9a8595d64e62e1500b064abd7e588749" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo serv1</definition>
+        <argsstring></argsstring>
+        <name>serv1</name>
+        <briefdescription>
+<para>Second servo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="15" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_working___potentiometer___code_8ino_1a632532ec80ad52b56985be11fe130d01" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -35,12 +48,12 @@
         <name>sensorPin</name>
         <initializer>= A0</initializer>
         <briefdescription>
-        </briefdescription>
+<para>Pin that the output from the potentiometer inputs to the Arduino. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="5" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="5" bodyend="-1"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="17" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -49,12 +62,12 @@
         <name>pinput</name>
         <initializer>= 45</initializer>
         <briefdescription>
-        </briefdescription>
+<para>Value for storing input from potentiometer. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="6" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="6" bodyend="-1"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="19" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="19" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -64,12 +77,21 @@
         <argsstring>()</argsstring>
         <name>setup</name>
         <briefdescription>
-        </briefdescription>
+<para>Code that attaches the servos. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>This code is run once at the beginning of the program It just attaches the servos to two of the analog output pins</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="8" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="8" bodyend="12"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="31" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="31" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="_working___potentiometer___code_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -77,39 +99,47 @@
         <argsstring>()</argsstring>
         <name>loop</name>
         <briefdescription>
-        </briefdescription>
+<para>Code that runs the servos. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>This code loops repeatidly for the duration that power is running through the arduino. It reads the input from the pot. maps it to 360 degrees of rotation then writes that to both the servos.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="14" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="14" bodyend="20"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="48" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="48" bodyend="53"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>This code runs 2 servos off the input of a potentiometer. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para>This program uses 2 servo motors and one potentiometer. When the user turns the potentiometer, the input goes in to the Arduino and is then routed to the input of the two servos. </para>    </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;Servo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal">Servo<sp/>serv;</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//Servo<sp/>serv1;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sensorPin<sp/>=<sp/>A0;</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pinput<sp/>=<sp/>45;</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>put<sp/>your<sp/>setup<sp/>code<sp/>here,<sp/>to<sp/>run<sp/>once:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/>serv.attach(9);</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//serv.attach(10);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>put<sp/>your<sp/>main<sp/>code<sp/>here,<sp/>to<sp/>run<sp/>repeatedly:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/>pinput<sp/>=<sp/>analogRead(sensorPin);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/>pinput<sp/>=<sp/>map(pinput,<sp/>0,<sp/>1023,<sp/>0,<sp/>45);</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/>serv.write(pinput);</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//serv1.write(pinput);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#include<sp/>&lt;Servo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">Servo<sp/><ref refid="_working___potentiometer___code_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">Servo<sp/><ref refid="_working___potentiometer___code_8ino_1a9a8595d64e62e1500b064abd7e588749" kindref="member">serv1</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_working___potentiometer___code_8ino_1a632532ec80ad52b56985be11fe130d01" kindref="member">sensorPin</ref><sp/>=<sp/>A0;</highlight></codeline>
+<codeline lineno="19"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" kindref="member">pinput</ref><sp/>=<sp/>45;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_working___potentiometer___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="_working___potentiometer___code_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>.attach(9);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><ref refid="_working___potentiometer___code_8ino_1a9a8595d64e62e1500b064abd7e588749" kindref="member">serv1</ref>.attach(10);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_working___potentiometer___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" kindref="member">pinput</ref><sp/>=<sp/>analogRead(<ref refid="_working___potentiometer___code_8ino_1a632532ec80ad52b56985be11fe130d01" kindref="member">sensorPin</ref>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><ref refid="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" kindref="member">pinput</ref><sp/>=<sp/>map(<ref refid="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" kindref="member">pinput</ref>,<sp/>0,<sp/>1023,<sp/>0,<sp/>45);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><ref refid="_working___potentiometer___code_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>.write(<ref refid="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" kindref="member">pinput</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><ref refid="_working___potentiometer___code_8ino_1a9a8595d64e62e1500b064abd7e588749" kindref="member">serv1</ref>.write(<ref refid="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" kindref="member">pinput</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino"/>
   </compounddef>

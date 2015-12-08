@@ -16,15 +16,15 @@
     <member refid="_full___robot___code_8ino_1ab611e7983b833b6e26c24e00f12c278e" kind="variable"><name>elbow</name></member>
     <member refid="_full___robot___code_8ino_1a705492da183c4ccae458597c737efda5" kind="variable"><name>wrist</name></member>
     <member refid="_full___robot___code_8ino_1a492f39e709ace6ac96017be42d9238ba" kind="variable"><name>hand</name></member>
-    <member refid="_full___robot___code_8ino_1ab32d5ac361e31f1ab38fb6960c8956da" kind="variable"><name>elbowPin</name></member>
     <member refid="_full___robot___code_8ino_1a6ddba77e62e5aee2488967a4562deb35" kind="variable"><name>rotatePin</name></member>
     <member refid="_full___robot___code_8ino_1ab44cfb621485266d578560b812f86f7d" kind="variable"><name>shoulderPin</name></member>
-    <member refid="_full___robot___code_8ino_1a0c5805822d63e2be5e1c2d67374bef25" kind="variable"><name>BasePin</name></member>
+    <member refid="_full___robot___code_8ino_1ab32d5ac361e31f1ab38fb6960c8956da" kind="variable"><name>elbowPin</name></member>
+    <member refid="_full___robot___code_8ino_1a16a8a086661f7645d7dd150194819a54" kind="variable"><name>wristPin</name></member>
     <member refid="_full___robot___code_8ino_1a751e64316643e21766e99cf4329a7117" kind="variable"><name>handPin</name></member>
-    <member refid="_full___robot___code_8ino_1aabe17e9e37ac66b6c44944d69bab4a60" kind="variable"><name>elbowIn</name></member>
     <member refid="_full___robot___code_8ino_1aed489013b293d84291b243d9052c776d" kind="variable"><name>rotateIn</name></member>
     <member refid="_full___robot___code_8ino_1a661efe6cc4466f3d52a4edf588c74ded" kind="variable"><name>shoulderIn</name></member>
-    <member refid="_full___robot___code_8ino_1a23bc98e1c5803a299c3840bc63619a34" kind="variable"><name>BaseIn</name></member>
+    <member refid="_full___robot___code_8ino_1aabe17e9e37ac66b6c44944d69bab4a60" kind="variable"><name>elbowIn</name></member>
+    <member refid="_full___robot___code_8ino_1ab5aecef42968c07c245fb183e33f4b38" kind="variable"><name>wristIn</name></member>
     <member refid="_full___robot___code_8ino_1a0db2501e223e7a9c9b208fafd62af284" kind="variable"><name>handIn</name></member>
     <member refid="_full___robot___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
     <member refid="_full___robot___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
@@ -34,18 +34,22 @@
     <member refid="_servo_sweep_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
     <member refid="_servo_sweep_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
     <member refid="_servo_sweep_8ino_1a743e12b5e680cfb12894b00d603d8615" kind="function"><name>serialInput</name></member>
-    <member refid="_servo_sweep_8ino_1a80954ef6405cb2159d9e726045a381e2" kind="function"><name>sweep</name></member>
+    <member refid="_servo_sweep_8ino_1a28ce3d1389c3b021d9ad0a86770dbeb7" kind="function"><name>sweep</name></member>
   </compound>
   <compound refid="_testing___orig___servos_8ino" kind="file"><name>Testing_Orig_Servos.ino</name>
     <member refid="_testing___orig___servos_8ino_1ab7eaefeafe574cbf45415789bf672403" kind="variable"><name>myservo</name></member>
+    <member refid="_testing___orig___servos_8ino_1ae82ce746c91043cc28f8d2d34b313fdf" kind="variable"><name>myservo2</name></member>
     <member refid="_testing___orig___servos_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
     <member refid="_testing___orig___servos_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
   </compound>
   <compound refid="_working___potentiometer___code_8ino" kind="file"><name>Working_Potentiometer_Code.ino</name>
     <member refid="_working___potentiometer___code_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kind="variable"><name>serv</name></member>
+    <member refid="_working___potentiometer___code_8ino_1a9a8595d64e62e1500b064abd7e588749" kind="variable"><name>serv1</name></member>
     <member refid="_working___potentiometer___code_8ino_1a632532ec80ad52b56985be11fe130d01" kind="variable"><name>sensorPin</name></member>
     <member refid="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" kind="variable"><name>pinput</name></member>
     <member refid="_working___potentiometer___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
     <member refid="_working___potentiometer___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
+  </compound>
+  <compound refid="dir_8c2627f157d4d227987c129e99e0bbd7" kind="dir"><name>Source_Code</name>
   </compound>
 </doxygenindex>

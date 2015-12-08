@@ -5,7 +5,7 @@
     <includes local="no">Servo.h</includes>
     <incdepgraph>
       <node id="7">
-        <label>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino</label>
+        <label>Source_Code/ServoSweep.ino</label>
         <link refid="ServoSweep.ino"/>
         <childnode refid="8" relation="include">
         </childnode>
@@ -21,12 +21,12 @@
         <argsstring></argsstring>
         <name>serv</name>
         <briefdescription>
-        </briefdescription>
+<para>Servo for testing. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="3" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="3" bodyend="-1"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="13" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -36,12 +36,21 @@
         <argsstring>()</argsstring>
         <name>setup</name>
         <briefdescription>
-        </briefdescription>
+<para>Setup code runs once at start up. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Attatches test servo to a analog output pin and starts the serial monitor.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="5" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="5" bodyend="11"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="24" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="24" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="_servo_sweep_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -49,12 +58,21 @@
         <argsstring>()</argsstring>
         <name>loop</name>
         <briefdescription>
-        </briefdescription>
+<para>Loop code runs repeadtidly to power disconnect. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Exectutes main code. Either sweeps servo open and closed or takes open and close command from the serial monitor.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="13" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="13" bodyend="18"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="41" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="41" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="_servo_sweep_8ino_1a743e12b5e680cfb12894b00d603d8615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -70,17 +88,33 @@
           <declname>cl</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Gets input from Serial monitor and applies to servo. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Gets a command from the serial monitor. If command is &apos;o&apos; the servo turns to the open state. If the command is &apos;c&apos; the servo turns to the closed state. Otherwise, it does nothing.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>open</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>degrees of rotation for servo to open. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>close</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>degrees of rotation for servo to close. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="20" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="20" bodyend="29"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="57" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="57" bodyend="66"/>
       </memberdef>
-      <memberdef kind="function" id="_servo_sweep_8ino_1a80954ef6405cb2159d9e726045a381e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="_servo_sweep_8ino_1a28ce3d1389c3b021d9ad0a86770dbeb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void sweep</definition>
-        <argsstring>(int start, int en, int del)</argsstring>
+        <argsstring>(int start, int end, int t)</argsstring>
         <name>sweep</name>
         <param>
           <type>int</type>
@@ -88,67 +122,88 @@
         </param>
         <param>
           <type>int</type>
-          <declname>en</declname>
+          <declname>end</declname>
         </param>
         <param>
           <type>int</type>
-          <declname>del</declname>
+          <declname>t</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Sweeps the servo to. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Simple function to rotate the servo to a position and back.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position servo starts at. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position servo will move to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time t in milliseconds servo will delay while sweeping. Determines speed of rotation. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="31" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="31" bodyend="40"/>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" line="77" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino" bodystart="77" bodyend="86"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>This is code for testing servo functionality. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para>A simple program for testing servo functionality. It attaches one servo and rotates it to a certain angle and back repeatedly. Optional functionality to pass command through the serial monitor. </para>    </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;Servo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal">Servo<sp/>serv;</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>put<sp/>your<sp/>setup<sp/>code<sp/>here,<sp/>to<sp/>run<sp/>once:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/>serv.attach(9);</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Serial.begin(9600);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//while<sp/>(!<sp/>Serial);<sp/>//<sp/>Wait<sp/>until<sp/>Serial<sp/>is<sp/>ready</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Serial.println(&quot;Enter<sp/>o<sp/>or<sp/>c<sp/>to<sp/>open<sp/>or<sp/>close<sp/>the<sp/>claw&quot;);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>put<sp/>your<sp/>main<sp/>code<sp/>here,<sp/>to<sp/>run<sp/>repeatedly:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/>serv.write(48);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//sweep(0,<sp/>48,<sp/>20);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//serialInput(0,<sp/>48);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>serialInput(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>op,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cl)<sp/>{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Serial.available())<sp/>{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>Serial.read();</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c<sp/>==<sp/></highlight><highlight class="charliteral">&apos;o&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>serv.write(op);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c<sp/>==<sp/></highlight><highlight class="charliteral">&apos;c&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>serv.write(cl);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1a7b92333008667595c670f49489281efb" kindref="member">sweep</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>en,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>del)<sp/>{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>start;<sp/>i<sp/>&lt;=<sp/>en;<sp/>i++)<sp/>{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>serv.write(i);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(del);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>en;<sp/>i<sp/>&gt;=<sp/>start;<sp/>i--)<sp/>{</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>serv.write(i);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(del);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#include<sp/>&lt;Servo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">Servo<sp/><ref refid="_servo_sweep_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_servo_sweep_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>put<sp/>your<sp/>setup<sp/>code<sp/>here,<sp/>to<sp/>run<sp/>once:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="_servo_sweep_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>.attach(9);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>Serial.begin(9600);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!<sp/>Serial);<sp/></highlight><highlight class="comment">//<sp/>Wait<sp/>until<sp/>Serial<sp/>is<sp/>ready</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>Serial.println(</highlight><highlight class="stringliteral">&quot;Enter<sp/>o<sp/>or<sp/>c<sp/>to<sp/>open<sp/>or<sp/>close<sp/>the<sp/>claw&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_servo_sweep_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="_servo_sweep_8ino_1a28ce3d1389c3b021d9ad0a86770dbeb7" kindref="member">sweep</ref>(0,<sp/>48,<sp/>20);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//serialInput(0,<sp/>48);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_servo_sweep_8ino_1a743e12b5e680cfb12894b00d603d8615" kindref="member">serialInput</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>op,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cl)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Serial.available())<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>Serial.read();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c<sp/>==<sp/></highlight><highlight class="charliteral">&apos;o&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_servo_sweep_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>.write(op);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c<sp/>==<sp/></highlight><highlight class="charliteral">&apos;c&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_servo_sweep_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>.write(cl);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_servo_sweep_8ino_1a28ce3d1389c3b021d9ad0a86770dbeb7" kindref="member">sweep</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>t)<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>start;<sp/>i<sp/>&lt;=<sp/>end;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_servo_sweep_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>.write(i);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(t);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>end;<sp/>i<sp/>&gt;=<sp/>start;<sp/>i--)<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_servo_sweep_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kindref="member">serv</ref>.write(i);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>delay(t);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/ServoSweep.ino"/>
   </compounddef>

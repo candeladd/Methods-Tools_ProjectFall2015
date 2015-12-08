@@ -1,38 +1,74 @@
+/** @file
+ *  This is the final robot code.
+ *
+ *  This code attaches each of the servos to the pins on the arduino and attaches
+ *  each of the potentiometers to the input pins. It then routes the output from the
+ *  potentiometers to the input of the servos to accurately control their movement
+ */
+
 #include <Servo.h>
 
-//Servo for rotating arm at base
+/**Servo to rotate at base of arm */
 Servo rotate;
-//Servo for elevating arm at base
+/**Servo for elevating lower arm */
 Servo shoulder;
-//Servo at middle joint for rotating forearm
+/**Servo for moving upper arm */
 Servo elbow;
-//Servo attached to claw for rotating the claw
+/**Servo for moving claw */
 Servo wrist;
-//Servo for grabbing with claw
+/**Servo for moving opening and closing claw fingers */
 Servo hand;
 
-//Values for pins connected to servos
-int elbowPin = 0;
-int rotatePin = 0;
-int shoulderPin = 0;
-int BasePin = 0;
-int handPin = 0;
 
-//Values for reading in input from potentiometers
-int elbowIn = 0;
+/** Pin attached to rotate potentiometer*/
+int rotatePin = 0;
+/** Pin attached to shoulder potentiometer*/
+int shoulderPin = 1;
+/** Pin attached to shoulder potentiometer*/
+int elbowPin = 2;
+/** Pin attached to wrist potentiometer*/
+int wristPin = 3;
+/** Pin attached to claw pontetiometer*/
+int handPin = 4;
+
+/** Values for storing input from rotate potentiometer*/
 int rotateIn = 0;
+/** Values for storing input from shoulder potentiometer*/
 int shoulderIn = 0;
-int BaseIn = 0;
+/** Values for storing input from elbow potentiometer*/
+int elbowIn = 0;
+/** Values for storing input from wrist potentiometer*/
+int wristIn = 0;
+/** Values for storing input from hand potentiometer*/
 int handIn = 0;
+
+/** The code that runs once at the start.
+ *
+ *  Initializes variables for the program and attaches servos to
+ *  analog output pins
+ *  
+ *  @param void
+ *  @return void
+ */
+
 
 void setup() {
   // Attaching Servos to respective pins
   rotate.attach(3);
   shoulder.attach(5);
   elbow.attach(6);
-  Base.attach(9);
+  wrist.attach(9);
   hand.attach(10);
 }
+
+/** The code that loops repeatedly till power disconnect.
+ *
+ *  Reads in values from potentiometers, maps them to degrees, and
+ *  outputs the values to the degrees of rotation for the servos.
+ *  
+ *  @param void
+ *  @return void
+ */
 
 void loop() {
   // Reads in input from potentiometer
