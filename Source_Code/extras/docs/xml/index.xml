@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="_final___demo___code_8ino" kind="file"><name>Final_Demo_Code.ino</name>
+    <member refid="_final___demo___code_8ino_1ae3250e9bc1afb606a99abad6ff44da46" kind="define"><name>SERVOMINBASE</name></member>
+    <member refid="_final___demo___code_8ino_1a9524d9255f4670136e1f56a03ed2337a" kind="define"><name>SERVOMAXBASE</name></member>
+    <member refid="_final___demo___code_8ino_1a9a8c5ba1c99c5777d9bc75eb786d67e5" kind="define"><name>SERVOMINUP</name></member>
+    <member refid="_final___demo___code_8ino_1a1050c210d8a8e13e250166de25133129" kind="define"><name>SERVOMAXUP</name></member>
+    <member refid="_final___demo___code_8ino_1a2c06cc8f85429bb0f7cb91917164dc54" kind="variable"><name>pwm</name></member>
+    <member refid="_final___demo___code_8ino_1a3d7b96fd7ed48f21e600920846b435f2" kind="variable"><name>servonum</name></member>
+    <member refid="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
+    <member refid="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
+  </compound>
+  <compound refid="_full___robot___code_8ino" kind="file"><name>Full_Robot_Code.ino</name>
+    <member refid="_full___robot___code_8ino_1a83613551832022f93753f3fc3982a3f5" kind="variable"><name>rotate</name></member>
+    <member refid="_full___robot___code_8ino_1a671162e07e6ce722a453aa3872470b5f" kind="variable"><name>shoulder</name></member>
+    <member refid="_full___robot___code_8ino_1ab611e7983b833b6e26c24e00f12c278e" kind="variable"><name>elbow</name></member>
+    <member refid="_full___robot___code_8ino_1a705492da183c4ccae458597c737efda5" kind="variable"><name>wrist</name></member>
+    <member refid="_full___robot___code_8ino_1a492f39e709ace6ac96017be42d9238ba" kind="variable"><name>hand</name></member>
+    <member refid="_full___robot___code_8ino_1ab32d5ac361e31f1ab38fb6960c8956da" kind="variable"><name>elbowPin</name></member>
+    <member refid="_full___robot___code_8ino_1a6ddba77e62e5aee2488967a4562deb35" kind="variable"><name>rotatePin</name></member>
+    <member refid="_full___robot___code_8ino_1ab44cfb621485266d578560b812f86f7d" kind="variable"><name>shoulderPin</name></member>
+    <member refid="_full___robot___code_8ino_1a0c5805822d63e2be5e1c2d67374bef25" kind="variable"><name>BasePin</name></member>
+    <member refid="_full___robot___code_8ino_1a751e64316643e21766e99cf4329a7117" kind="variable"><name>handPin</name></member>
+    <member refid="_full___robot___code_8ino_1aabe17e9e37ac66b6c44944d69bab4a60" kind="variable"><name>elbowIn</name></member>
+    <member refid="_full___robot___code_8ino_1aed489013b293d84291b243d9052c776d" kind="variable"><name>rotateIn</name></member>
+    <member refid="_full___robot___code_8ino_1a661efe6cc4466f3d52a4edf588c74ded" kind="variable"><name>shoulderIn</name></member>
+    <member refid="_full___robot___code_8ino_1a23bc98e1c5803a299c3840bc63619a34" kind="variable"><name>BaseIn</name></member>
+    <member refid="_full___robot___code_8ino_1a0db2501e223e7a9c9b208fafd62af284" kind="variable"><name>handIn</name></member>
+    <member refid="_full___robot___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
+    <member refid="_full___robot___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
+  </compound>
+  <compound refid="_servo_sweep_8ino" kind="file"><name>ServoSweep.ino</name>
+    <member refid="_servo_sweep_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kind="variable"><name>serv</name></member>
+    <member refid="_servo_sweep_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
+    <member refid="_servo_sweep_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
+    <member refid="_servo_sweep_8ino_1a743e12b5e680cfb12894b00d603d8615" kind="function"><name>serialInput</name></member>
+    <member refid="_servo_sweep_8ino_1a80954ef6405cb2159d9e726045a381e2" kind="function"><name>sweep</name></member>
+  </compound>
+  <compound refid="_testing___orig___servos_8ino" kind="file"><name>Testing_Orig_Servos.ino</name>
+    <member refid="_testing___orig___servos_8ino_1ab7eaefeafe574cbf45415789bf672403" kind="variable"><name>myservo</name></member>
+    <member refid="_testing___orig___servos_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
+    <member refid="_testing___orig___servos_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
+  </compound>
+  <compound refid="_working___potentiometer___code_8ino" kind="file"><name>Working_Potentiometer_Code.ino</name>
+    <member refid="_working___potentiometer___code_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" kind="variable"><name>serv</name></member>
+    <member refid="_working___potentiometer___code_8ino_1a632532ec80ad52b56985be11fe130d01" kind="variable"><name>sensorPin</name></member>
+    <member refid="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" kind="variable"><name>pinput</name></member>
+    <member refid="_working___potentiometer___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
+    <member refid="_working___potentiometer___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
+  </compound>
+</doxygenindex>

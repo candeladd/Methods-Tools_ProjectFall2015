@@ -1,5 +1,6 @@
-/*! \brief This is the final demo code.
- *         We used this in the presentation.
+/** @file
+ *  This is the final demo code.
+ *  We used this in the presentation.
  *
  *  This code sweeps the base of the robot, then the upper arm, then the claw.
  *  The code loops infinitely until power is cut from the arduino or the shield.
@@ -20,8 +21,8 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 // our servo # counter
 uint8_t servonum = 0;
 
-/*! \brief This sets up the Arduino code.
- *         Runs only once at the beginning.
+/** This sets up the Arduino code.
+ *  Runs only once at the beginning.
  *
  *  Serial.begin(9600) sets up the serial monitor for debugging purposes.
  *  The next line simply prints to the serial monitor.
@@ -44,8 +45,8 @@ void setup() {
   yield();
 }
 
-/*! \brief This code loops through every cycle.
- *         It keeps cycling until power is disconnected.
+/** This code loops through every cycle.
+ *  keeps cycling until power is disconnected.
  *
  *  There are two sets of for loops for each joint. The first for loop
  *  sweeps the servo up, the second for loop sweeps the servo down. 

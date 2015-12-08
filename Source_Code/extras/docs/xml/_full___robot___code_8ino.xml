@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_full___robot___code_8ino" kind="file">
+    <compoundname>Full_Robot_Code.ino</compoundname>
+    <includes local="no">Servo.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>Servo.h</label>
+      </node>
+      <node id="4">
+        <label>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino</label>
+        <link refid="Full_Robot_Code.ino"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a83613551832022f93753f3fc3982a3f5" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo rotate</definition>
+        <argsstring></argsstring>
+        <name>rotate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="4" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a671162e07e6ce722a453aa3872470b5f" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo shoulder</definition>
+        <argsstring></argsstring>
+        <name>shoulder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="6" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1ab611e7983b833b6e26c24e00f12c278e" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo elbow</definition>
+        <argsstring></argsstring>
+        <name>elbow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="8" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a705492da183c4ccae458597c737efda5" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo wrist</definition>
+        <argsstring></argsstring>
+        <name>wrist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="10" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a492f39e709ace6ac96017be42d9238ba" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo hand</definition>
+        <argsstring></argsstring>
+        <name>hand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="12" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1ab32d5ac361e31f1ab38fb6960c8956da" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int elbowPin</definition>
+        <argsstring></argsstring>
+        <name>elbowPin</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="15" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a6ddba77e62e5aee2488967a4562deb35" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int rotatePin</definition>
+        <argsstring></argsstring>
+        <name>rotatePin</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="16" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1ab44cfb621485266d578560b812f86f7d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int shoulderPin</definition>
+        <argsstring></argsstring>
+        <name>shoulderPin</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="17" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a0c5805822d63e2be5e1c2d67374bef25" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BasePin</definition>
+        <argsstring></argsstring>
+        <name>BasePin</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="18" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a751e64316643e21766e99cf4329a7117" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int handPin</definition>
+        <argsstring></argsstring>
+        <name>handPin</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="19" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1aabe17e9e37ac66b6c44944d69bab4a60" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int elbowIn</definition>
+        <argsstring></argsstring>
+        <name>elbowIn</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="22" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1aed489013b293d84291b243d9052c776d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int rotateIn</definition>
+        <argsstring></argsstring>
+        <name>rotateIn</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="23" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a661efe6cc4466f3d52a4edf588c74ded" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int shoulderIn</definition>
+        <argsstring></argsstring>
+        <name>shoulderIn</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="24" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a23bc98e1c5803a299c3840bc63619a34" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BaseIn</definition>
+        <argsstring></argsstring>
+        <name>BaseIn</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="25" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_full___robot___code_8ino_1a0db2501e223e7a9c9b208fafd62af284" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int handIn</definition>
+        <argsstring></argsstring>
+        <name>handIn</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="26" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_full___robot___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="28" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="_full___robot___code_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" line="37" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino" bodystart="37" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;Servo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//Servo<sp/>for<sp/>rotating<sp/>arm<sp/>at<sp/>base</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">Servo<sp/>rotate;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//Servo<sp/>for<sp/>elevating<sp/>arm<sp/>at<sp/>base</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">Servo<sp/>shoulder;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//Servo<sp/>at<sp/>middle<sp/>joint<sp/>for<sp/>rotating<sp/>forearm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">Servo<sp/>elbow;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//Servo<sp/>attached<sp/>to<sp/>claw<sp/>for<sp/>rotating<sp/>the<sp/>claw</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">Servo<sp/>wrist;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//Servo<sp/>for<sp/>grabbing<sp/>with<sp/>claw</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">Servo<sp/>hand;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//Values<sp/>for<sp/>pins<sp/>connected<sp/>to<sp/>servos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>elbowPin<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rotatePin<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shoulderPin<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BasePin<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handPin<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//Values<sp/>for<sp/>reading<sp/>in<sp/>input<sp/>from<sp/>potentiometers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>elbowIn<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rotateIn<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shoulderIn<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BaseIn<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handIn<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Attaching<sp/>Servos<sp/>to<sp/>respective<sp/>pins</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>rotate.attach(3);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>shoulder.attach(5);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>elbow.attach(6);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>Base.attach(9);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>hand.attach(10);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Reads<sp/>in<sp/>input<sp/>from<sp/>potentiometer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>rotateIn<sp/>=<sp/>analogRead(rotatePin);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Maps<sp/>potentiometer<sp/>input<sp/>to<sp/>degrees<sp/>of<sp/>rotation<sp/>for<sp/>servo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>rotateIn<sp/>=<sp/>map(rotateIn,<sp/>0,<sp/>1023,<sp/>0,<sp/>359);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Spins<sp/>the<sp/>servo<sp/>into<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>rotate.write(rotateIn);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Map<sp/>input<sp/>from<sp/>pot.<sp/>to<sp/>elbow<sp/>servo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>elbowIn<sp/>=<sp/>analogRead(elbowPin);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>elbowIn<sp/>=<sp/>map(elbowIn,<sp/>0,<sp/>1023,<sp/>0,<sp/>359);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>elbow.write(elbowIn);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Map<sp/>input<sp/>from<sp/>pot.<sp/>to<sp/>shoulder<sp/>servo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>shoulderIn<sp/>=<sp/>analogRead(shoulderPin);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>shoulderIn<sp/>=<sp/>map(shoulderIn,<sp/>0,<sp/>1023,<sp/>0,<sp/>359);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>shoulder.write(shoulderIn);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Map<sp/>input<sp/>from<sp/>pot.<sp/>to<sp/>Base<sp/>servo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>BaseIn<sp/>=<sp/>analogRead(wristPin);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>BaseIn<sp/>=<sp/>map(wristIn,<sp/>0,<sp/>1023,<sp/>0,<sp/>359);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>Base.write(wristIn);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Map<sp/>input<sp/>from<sp/>pot.<sp/>to<sp/>hand<sp/>servo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>handIn<sp/>=<sp/>analogRead(handPin);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>handIn<sp/>=<sp/>map(handIn,<sp/>0,<sp/>1023,<sp/>0,<sp/>359);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>hand.write(handIn);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>delay(15);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Full_Robot_Code.ino"/>
+  </compounddef>
+</doxygen>

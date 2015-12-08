@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_working___potentiometer___code_8ino" kind="file">
+    <compoundname>Working_Potentiometer_Code.ino</compoundname>
+    <includes local="no">Servo.h</includes>
+    <incdepgraph>
+      <node id="13">
+        <label>/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino</label>
+        <link refid="Working_Potentiometer_Code.ino"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Servo.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_working___potentiometer___code_8ino_1a9488c8d7a3c4603f10af1b9985a0fedf" prot="public" static="no" mutable="no">
+        <type>Servo</type>
+        <definition>Servo serv</definition>
+        <argsstring></argsstring>
+        <name>serv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="3" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_working___potentiometer___code_8ino_1a632532ec80ad52b56985be11fe130d01" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sensorPin</definition>
+        <argsstring></argsstring>
+        <name>sensorPin</name>
+        <initializer>= A0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="5" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_working___potentiometer___code_8ino_1a950e924f3fc8a60ba1044df9cf3cc186" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int pinput</definition>
+        <argsstring></argsstring>
+        <name>pinput</name>
+        <initializer>= 45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="6" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_working___potentiometer___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="8" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="_working___potentiometer___code_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" line="14" column="1" bodyfile="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino" bodystart="14" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;Servo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">Servo<sp/>serv;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//Servo<sp/>serv1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sensorPin<sp/>=<sp/>A0;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pinput<sp/>=<sp/>45;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kindref="member">setup</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>put<sp/>your<sp/>setup<sp/>code<sp/>here,<sp/>to<sp/>run<sp/>once:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>serv.attach(9);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//serv.attach(10);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_final___demo___code_8ino_1afe461d27b9c48d5921c00d521181f12f" kindref="member">loop</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>put<sp/>your<sp/>main<sp/>code<sp/>here,<sp/>to<sp/>run<sp/>repeatedly:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>pinput<sp/>=<sp/>analogRead(sensorPin);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>pinput<sp/>=<sp/>map(pinput,<sp/>0,<sp/>1023,<sp/>0,<sp/>45);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>serv.write(pinput);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//serv1.write(pinput);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/user/Dropbox/CSCI3308/Project/Methods-Tools_ProjectFall2015/Source_Code/Working_Potentiometer_Code.ino"/>
+  </compounddef>
+</doxygen>
